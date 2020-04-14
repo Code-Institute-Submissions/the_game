@@ -1,1 +1,254 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers&family=Roboto&display=swap': 100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Bangers&family=Roboto&display=swap: 100,200,300,400,500,600,700');
+
+/*    ------------------------Header information   */
+/*
+header {
+    margin: 0;
+    background-color: #388e3c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    z-index: 30; 
+    } */
+
+/*    ------------------------Navigation Bar   */
+
+.navbar-dark .navbar-brand {
+    font-family: 'Bangers', sans-serif;
+    font-size: 5em;
+    font-weight: 100;
+    letter-spacing: -3px;
+    color: #fff;
+    text-shadow: 1px 1px 1px blue, 0 0 1px darkblue;
+    filter: contrast(80%);
+}
+
+.navbar-dark .navbar-nav .nav-link  {
+    color: #569d44;
+}
+
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #000000;
+} 
+
+.hvr-shutter-in-verticle::before { 
+    background-color: #569d44;
+    max-width: 165px;
+}
+
+.nav-link.hvr-shutter-in-verticle::before .active>.nav-link {
+    background-color: #569d44;
+}
+
+/*
+#index {
+    padding: 130px;
+    font-size: 24px;
+}
+
+#about {
+    padding: 130px;
+    font-size: 24px;
+} 
+
+#contact {
+    padding: 130px;
+    font-size: 24px;
+}*/
+
+.bg-warning {
+    background-color: #388e3c!important;
+}
+
+/*    ------------------------Navigation Bar font awesome icons  */ 
+
+i.fa.fa-home::before {
+    font-size: 16px;
+    padding: 3px;
+    color: #000000
+}
+
+i.fa.fa-address-card::before {
+    font-size: 16px;
+    padding: 3px;
+     color: #000000
+}
+
+i.fa.fa-briefcase::before {
+    font-size: 16px;
+    padding: 3px;
+     color: #000000
+}
+
+i.fa.fa-envelope:before {
+    font-size: 16px;
+    padding: 3px;
+     color: #000000
+}
+
+i.fa-download::before {
+    font-size: 16px;
+    padding: 3px;
+     color: #000000
+}
+
+/*    ------------------------Page Headings */
+
+h1 {
+    font-family: "Roboto" , sans-serif;
+    font-size: 4em;
+    letter-spacing: 20px;
+    color:#000000;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+    margin-top: 60px;
+}
+
+h2 {
+    font-family: "Roboto" , sans-serif;
+    font-size: 60px;
+    letter-spacing: 10px;
+    text-align: center;
+    color:#000000;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+h3 {
+    font-family: "Roboto" , sans-serif;
+    font-size: 30px;
+    letter-spacing: 10px;
+    padding: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+h4 {
+    font-family: "Roboto" , sans-serif;
+    line-height: 80px;
+    text-align: center;
+    color:#000000;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+
+h5 {
+    font-family: "Roboto" , sans-serif;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+
+}
+
+h6 {
+    font-family: "Roboto" , sans-serif;
+}
+
+/*    ------------------------Navigation logo image   */
+/*
+img.d-inline-block  {
+    height: 40px;
+    width: 40px;
+    padding: 6px;
+}
+*/
+
+/*    ------------------------H4 page headings   */
+
+.page-titles {
+    font-family: "Roboto" , sans-serif;
+}
+
+/*    ------------------------Footer   */
+
+footer {
+    font-family: "bangers" , sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    background-color: #569d44;
+    padding: 12px;
+    color:#fff;
+    min-height: 100px;
+    min-width: 6em;
+    bottom: 0; 
+}
+
+
+.copyright {
+    font-family: "bangers";
+    text-align: center;
+    padding: 20px;
+    color:#000000;
+    
+}
+
+
+/*    ------------------------ Web form   
+
+.contact-heading {
+    font-family: "Roboto" , sans-serif;
+    margin-top: -100px;
+}
+
+.center-form {
+        
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #006db3;
+    background-color: #ffc107;
+}*/
+
+/*    ------------------------ Media Queries for form  */
+
+@media(min-width: 991px) {
+    .center-form {
+     padding-top: 10px;
+     min-height: 240px;
+     margin: 0 auto;
+     max-width: 50%;
+        
+}
+}
+
+@media(min-width: 1101px) {
+    #portfolio img {
+     max-width: 75%;
+        
+}
+}
+
+@media(min-width: 935px) {
+    #portfolio img {
+     max-width: 25%;
+        
+}
+}
+
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+/*    ------------------------ My name title   */
+
+.section-heading {
+    font-family: 'Bangers' , sans-serif;
+    text-align: center;
+}
+
