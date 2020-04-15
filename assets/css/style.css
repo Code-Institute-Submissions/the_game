@@ -1,17 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers&family=Roboto&display=swap: 100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Bangers&family=Roboto&display=swap:100,200,300,400,500,600,700');
 
-/*    ------------------------Header information   */
-/*
+/*    --------------------------------Header   */
+
 header {
     margin: 0;
-    background-color: #388e3c;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 150px;
-    z-index: 30; 
-    } */
+}
 
 /*    ------------------------Navigation Bar   */
 
@@ -26,39 +19,25 @@ header {
 }
 
 .navbar-dark .navbar-nav .nav-link  {
-    color: #569d44;
+    color: #fff;
 }
 
 
 .navbar-dark .navbar-nav .active>.nav-link {
-    color: #000000;
+    color: #fff;
 } 
 
-.hvr-shutter-in-verticle::before { 
-    background-color: #569d44;
-    max-width: 165px;
-}
 
-.nav-link.hvr-shutter-in-verticle::before .active>.nav-link {
+
+.hvr-shutter-in-verticle::before .active>.nav-link {
     background-color: #569d44;
 }
 
-/*
-#index {
-    padding: 130px;
-    font-size: 24px;
+
+/* added 15/04/20 */
+a.nav-link.hvr-shutter-in-verticle::before { 
+    background-color: #569d44;
 }
-
-#about {
-    padding: 130px;
-    font-size: 24px;
-} 
-
-#contact {
-    padding: 130px;
-    font-size: 24px;
-}*/
-
 
 /* find method not using important*/
 .bg-warning {
@@ -66,26 +45,21 @@ header {
 }
 
 /*    ------------------------Navigation Bar font awesome icons  */ 
-
-i.fa.fa-home::before {
+/*
+i.fas.fa-star::before {
     font-size: 16px;
     padding: 3px;
     color: #000000
 }
 
-i.fa.fa-address-card::before {
+i.fas.fa-book::before {
     font-size: 16px;
     padding: 3px;
      color: #000000
 }
 
-i.fa.fa-briefcase::before {
-    font-size: 16px;
-    padding: 3px;
-     color: #000000
-}
 
-i.fa.fa-envelope:before {
+i.fas.fa-envelope:before {
     font-size: 16px;
     padding: 3px;
      color: #000000
@@ -96,13 +70,13 @@ i.fa-download::before {
     padding: 3px;
      color: #000000
 }
-
+*/
 /*    ------------------------Page Headings */
 
 h1 {
     font-family: "Bangers" , sans-serif;
     font-size: 4em;
-    letter-spacing: 20px;
+    letter-spacing: -3px;
     color:#000000;
     text-align: center;
   /*  text-shadow: 2px 2px 2px #000000; */
@@ -110,12 +84,10 @@ h1 {
 }
 
 h2 {
-    font-family: "Bangers" , sans-serif;
-    font-size: 4em;
-    letter-spacing: 10px;
+    font-family: "robto" , sans-serif;
+    font-size: 2em;
     text-align: center;
     color:#000000;
-    text-shadow: 1px 1px 1px #000000;
 }
 
 h3 {
@@ -129,7 +101,7 @@ h3 {
 
 h4 {
     font-family: "Bangers" , sans-serif;
-    line-height: 80px;
+    line-height: 2em;
     text-align: center;
     color:#000000;
     font-size: 50px;
@@ -146,29 +118,22 @@ h5 {
 }
 
 h6 {
-    font-family: "Bangers" , sans-serif;
+    font-family: "Robto" , sans-serif;
+    font-size: 20px;
+    color: #fff;
 }
+/*    ------------------------Card size   */
 
-/*    ------------------------Navigation logo image   */
-/*
-img.d-inline-block  {
-    height: 40px;
-    width: 40px;
-    padding: 6px;
-}
-*/
-
-/*    ------------------------H4 page headings   */
-
-.page-titles {
-    font-family: 'Bangers' , sans-serif;
+img {
+    width: auto;
+    height: 200px;
 }
 
 /*    ------------------------Footer   */
 
 footer {
     font-family: "bangers" , sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     margin: 0;
     background-color: #569d44;
