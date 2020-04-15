@@ -59,6 +59,8 @@ header {
     font-size: 24px;
 }*/
 
+
+/* find method not using important*/
 .bg-warning {
     background-color: #388e3c!important;
 }
@@ -98,18 +100,18 @@ i.fa-download::before {
 /*    ------------------------Page Headings */
 
 h1 {
-    font-family: "Roboto" , sans-serif;
+    font-family: "Bangers" , sans-serif;
     font-size: 4em;
     letter-spacing: 20px;
     color:#000000;
     text-align: center;
-    text-shadow: 2px 2px 2px #000000;
+  /*  text-shadow: 2px 2px 2px #000000; */
     margin-top: 60px;
 }
 
 h2 {
-    font-family: "Roboto" , sans-serif;
-    font-size: 60px;
+    font-family: "Bangers" , sans-serif;
+    font-size: 4em;
     letter-spacing: 10px;
     text-align: center;
     color:#000000;
@@ -117,7 +119,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Roboto" , sans-serif;
+    font-family: "Bangers" , sans-serif;
     font-size: 30px;
     letter-spacing: 10px;
     padding: 30px;
@@ -126,7 +128,7 @@ h3 {
 }
 
 h4 {
-    font-family: "Roboto" , sans-serif;
+    font-family: "Bangers" , sans-serif;
     line-height: 80px;
     text-align: center;
     color:#000000;
@@ -136,7 +138,7 @@ h4 {
 
 
 h5 {
-    font-family: "Roboto" , sans-serif;
+    font-family: "Bangers" , sans-serif;
     font-size: 24px;
     color: #000000;
     text-align: center;
@@ -144,7 +146,7 @@ h5 {
 }
 
 h6 {
-    font-family: "Roboto" , sans-serif;
+    font-family: "Bangers" , sans-serif;
 }
 
 /*    ------------------------Navigation logo image   */
@@ -159,7 +161,7 @@ img.d-inline-block  {
 /*    ------------------------H4 page headings   */
 
 .page-titles {
-    font-family: "Roboto" , sans-serif;
+    font-family: 'Bangers' , sans-serif;
 }
 
 /*    ------------------------Footer   */
@@ -208,7 +210,7 @@ button[type="submit"] {
     background-color: #ffc107;
 }*/
 
-/*    ------------------------ Media Queries for form  */
+/*    ------------------------ Media Queries for form  
 
 @media(min-width: 991px) {
     .center-form {
@@ -233,7 +235,7 @@ button[type="submit"] {
         
 }
 }
-
+*/
 
 .row-table {
     display: table;
