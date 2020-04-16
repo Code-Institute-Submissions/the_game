@@ -13,74 +13,49 @@ header {
     font-size: 5em;
     font-weight: 100;
     letter-spacing: -3px;
-    color: #fff;
-    text-shadow: 1px 1px 1px blue, 0 0 1px darkblue;
-    filter: contrast(80%);
+    color: #f9d302;
+    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
+  /*  filter: contrast(80%); */
 }
 
 .navbar-dark .navbar-nav .nav-link  {
-    color: #fff;
+    font-family: 'Bangers', sans-serif;
+    color: #f9d302;
+    background-color:  #569d44;
+    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
+    font-size: 25px;
 }
 
+hvr-shutter-in-verticle::before .active>.nav-link {
+    background-color: #e6b516;
+}
 
-.navbar-dark .navbar-nav .active>.nav-link {
-    color: #fff;
+.hvr-shutter-in-vertical:before {
+    background-color: #569d44;
+}
+
+/*    ------------------------Navigation Background Colour */
+
+a.nav-link.hvr-shutter-in-verticle::before { 
+    background-color: #569d44; 
+}
+
+/* find method not using important */
+.bg-warning {
+    background-color: #569d44!important;
 } 
 
-
-
-.hvr-shutter-in-verticle::before .active>.nav-link {
-    background-color: #569d44;
-}
-
-
-/* added 15/04/20 */
-a.nav-link.hvr-shutter-in-verticle::before { 
-    background-color: #569d44;
-}
-
-/* find method not using important*/
-.bg-warning {
-    background-color: #388e3c!important;
-}
-
-/*    ------------------------Navigation Bar font awesome icons  */ 
-/*
-i.fas.fa-star::before {
-    font-size: 16px;
-    padding: 3px;
-    color: #000000
-}
-
-i.fas.fa-book::before {
-    font-size: 16px;
-    padding: 3px;
-     color: #000000
-}
-
-
-i.fas.fa-envelope:before {
-    font-size: 16px;
-    padding: 3px;
-     color: #000000
-}
-
-i.fa-download::before {
-    font-size: 16px;
-    padding: 3px;
-     color: #000000
-}
-*/
 /*    ------------------------Page Headings */
 
 h1 {
     font-family: "Bangers" , sans-serif;
     font-size: 4em;
     letter-spacing: -3px;
-    color:#000000;
+    color:#f9d302;
+    text-shadow: 1px 1px 1px grey, 0 0 1px black;
     text-align: center;
   /*  text-shadow: 2px 2px 2px #000000; */
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 h2 {
@@ -89,7 +64,7 @@ h2 {
     text-align: center;
     color:#000000;
 }
-
+/* currently not required
 h3 {
     font-family: "Bangers" , sans-serif;
     font-size: 30px;
@@ -115,18 +90,18 @@ h5 {
     color: #000000;
     text-align: center;
 
-}
+} */
 
 h6 {
     font-family: "Robto" , sans-serif;
     font-size: 20px;
-    color: #fff;
+    color: #f9d302;
 }
-/*    ------------------------Card size   */
+/*    ------------------------Card image size   */
 
 img {
-    width: auto;
-    height: 200px;
+    max-width: auto;
+    max-height: 25%;
 }
 
 /*    ------------------------Footer   */
@@ -135,12 +110,12 @@ footer {
     font-family: "bangers" , sans-serif;
     font-size: 20px;
     text-align: center;
-    margin: 0;
+    /* margin-top: 20; */
     background-color: #569d44;
     padding: 12px;
     color:#fff;
     min-height: 100px;
-    min-width: 6em;
+    min-width: 100%;
     bottom: 0; 
 }
 
@@ -149,12 +124,12 @@ footer {
     font-family: "bangers";
     text-align: center;
     padding: 20px;
-    color:#000000;
+    color:#f9d302;
     
 }
 
 
-/*    ------------------------ Web form   
+/*    ------------------------ Web form   */
 
 .contact-heading {
     font-family: "Roboto" , sans-serif;
@@ -172,7 +147,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #006db3;
-    background-color: #ffc107;
+    background-color: #f9d302;
 }*/
 
 /*    ------------------------ Media Queries for form  
@@ -200,7 +175,7 @@ button[type="submit"] {
         
 }
 }
-*/
+
 
 .row-table {
     display: table;
