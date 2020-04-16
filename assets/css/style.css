@@ -52,7 +52,7 @@ h1 {
     font-size: 4em;
     letter-spacing: -3px;
     color:#f9d302;
-    text-shadow: 1px 1px 1px grey, 0 0 1px black;
+    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
     text-align: center;
   /*  text-shadow: 2px 2px 2px #000000; */
     margin-top: 20px;
@@ -64,33 +64,6 @@ h2 {
     text-align: center;
     color:#000000;
 }
-/* currently not required
-h3 {
-    font-family: "Bangers" , sans-serif;
-    font-size: 30px;
-    letter-spacing: 10px;
-    padding: 30px;
-    text-align: center;
-    color: #000000;
-}
-
-h4 {
-    font-family: "Bangers" , sans-serif;
-    line-height: 2em;
-    text-align: center;
-    color:#000000;
-    font-size: 50px;
-    margin-top: 30px;
-}
-
-
-h5 {
-    font-family: "Bangers" , sans-serif;
-    font-size: 24px;
-    color: #000000;
-    text-align: center;
-
-} */
 
 h6 {
     font-family: "Robto" , sans-serif;
@@ -104,13 +77,83 @@ img {
     max-height: 25%;
 }
 
+/*    ------------------------Card buttons   */
+
+button[type="strength"] {
+    font-family: "Bangers" , sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    color: #f9d302;
+    background-color: #569d44;
+    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
+    padding-left: 0%;
+    height: 25px;
+    width: auto;
+    border: 2px solid black;
+    float: left;
+}
+
+button[type="weight"] {
+    font-family: "Bangers" , sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    color: #f9d302;
+    background-color: #569d44;
+    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
+    padding-left: 0%;
+    height: 25px;
+    width: auto;
+    border: 2px solid black;
+    float: left;
+}
+button[type="power"] {
+    font-family: "Bangers" , sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    color: #f9d302;
+    background-color: #569d44;
+    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
+    padding-left: 0%;
+    height: 25px;
+    width: auto;
+    border: 2px solid black;
+    float: left;
+}
+
+button[type="age"] {
+    font-family: "Bangers" , sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    color: #f9d302;
+    background-color: #569d44;
+    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
+    padding-left: 0%;
+    height: 25px;
+    width: auto;
+    border: 2px solid black;
+    float: left;
+}
+
+button[type="magic"] {
+    font-family: "Bangers" , sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    color: #f9d302;
+    background-color: #569d44;
+    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
+    padding-left: 0%;
+    height: 25px;
+    width: auto;
+    border: 2px solid black;
+    float: left;
+}
+
 /*    ------------------------Footer   */
 
 footer {
     font-family: "bangers" , sans-serif;
     font-size: 20px;
     text-align: center;
-    /* margin-top: 20; */
     background-color: #569d44;
     padding: 12px;
     color:#fff;
@@ -127,7 +170,6 @@ footer {
     color:#f9d302;
     
 }
-
 
 /*    ------------------------ Web form   */
 
@@ -146,7 +188,7 @@ footer {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #006db3;
+    color: #569d44;
     background-color: #f9d302;
 }*/
 
