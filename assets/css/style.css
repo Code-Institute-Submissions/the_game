@@ -10,12 +10,12 @@ header {
 
 .navbar-dark .navbar-brand {
     font-family: 'Bangers', sans-serif;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 100;
     letter-spacing: -3px;
     color: #f9d302;
     text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
-  /*  filter: contrast(80%); */
+    align-self: auto;
 }
 
 .navbar-dark .navbar-nav .nav-link  {
@@ -32,6 +32,11 @@ hvr-shutter-in-verticle::before .active>.nav-link {
 
 .hvr-shutter-in-vertical:before {
     background-color: #569d44;
+}
+
+.navbar-toggler {
+    background-color: #e6b516;
+    color: #569d44;
 }
 
 /*    ------------------------Navigation Background Colour */
@@ -77,9 +82,9 @@ img {
     max-height: 25%;
 }
 
-/*    ------------------------Card buttons   */
+/*    ------------------------Card buttons-- lose as buttons not require 21/04/20   */
 
-button[type="strength"] {
+/*button[type="strength"] {
     font-family: "Bangers" , sans-serif;
     text-align: center;
     vertical-align: middle;
@@ -146,7 +151,7 @@ button[type="magic"] {
     width: auto;
     border: 2px solid black;
     float: left;
-}
+}*/
 
 /*    ------------------------Footer   */
 
@@ -162,13 +167,11 @@ footer {
     bottom: 0; 
 }
 
-
 .copyright {
     font-family: "bangers";
     text-align: center;
     padding: 20px;
-    color:#f9d302;
-    
+    color:#f9d302;  
 }
 
 /*    ------------------------ Web form   */
@@ -186,53 +189,12 @@ footer {
 }
 
 button[type="submit"] {
+    font-family: "Bangers" , sans-serif;
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #569d44;
-    background-color: #f9d302;
+    color: #f9d302;
+    background-color: #569d44;
+    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
 }*/
 
-/*    ------------------------ Media Queries for form  
-
-@media(min-width: 991px) {
-    .center-form {
-     padding-top: 10px;
-     min-height: 240px;
-     margin: 0 auto;
-     max-width: 50%;
-        
-}
-}
-
-@media(min-width: 1101px) {
-    #portfolio img {
-     max-width: 75%;
-        
-}
-}
-
-@media(min-width: 935px) {
-    #portfolio img {
-     max-width: 25%;
-        
-}
-}
-
-
-.row-table {
-    display: table;
-}
-
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-/*    ------------------------ My name title   */
-
-.section-heading {
-    font-family: 'Bangers' , sans-serif;
-    text-align: center;
-}
-
+/*    ------------------------ Media Queries  */
