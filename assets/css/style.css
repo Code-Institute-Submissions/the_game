@@ -16,6 +16,7 @@ header {
     color: #f9d302;
     text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
     align-self: auto;
+    min-width: 25%;
 }
 
 .navbar-dark .navbar-nav .nav-link  {
@@ -79,79 +80,9 @@ h6 {
 
 img {
     max-width: auto;
-    max-height: 25%;
+    min-height: 25%;
+    padding: 0px;
 }
-
-/*    ------------------------Card buttons-- lose as buttons not require 21/04/20   */
-
-/*button[type="strength"] {
-    font-family: "Bangers" , sans-serif;
-    text-align: center;
-    vertical-align: middle;
-    color: #f9d302;
-    background-color: #569d44;
-    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
-    padding-left: 0%;
-    height: 25px;
-    width: auto;
-    border: 2px solid black;
-    float: left;
-}
-
-button[type="weight"] {
-    font-family: "Bangers" , sans-serif;
-    text-align: center;
-    vertical-align: middle;
-    color: #f9d302;
-    background-color: #569d44;
-    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
-    padding-left: 0%;
-    height: 25px;
-    width: auto;
-    border: 2px solid black;
-    float: left;
-}
-button[type="power"] {
-    font-family: "Bangers" , sans-serif;
-    text-align: center;
-    vertical-align: middle;
-    color: #f9d302;
-    background-color: #569d44;
-    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
-    padding-left: 0%;
-    height: 25px;
-    width: auto;
-    border: 2px solid black;
-    float: left;
-}
-
-button[type="age"] {
-    font-family: "Bangers" , sans-serif;
-    text-align: center;
-    vertical-align: middle;
-    color: #f9d302;
-    background-color: #569d44;
-    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
-    padding-left: 0%;
-    height: 25px;
-    width: auto;
-    border: 2px solid black;
-    float: left;
-}
-
-button[type="magic"] {
-    font-family: "Bangers" , sans-serif;
-    text-align: center;
-    vertical-align: middle;
-    color: #f9d302;
-    background-color: #569d44;
-    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
-    padding-left: 0%;
-    height: 25px;
-    width: auto;
-    border: 2px solid black;
-    float: left;
-}*/
 
 /*    ------------------------Footer   */
 
@@ -196,5 +127,3 @@ button[type="submit"] {
     background-color: #569d44;
     text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
 }*/
-
-/*    ------------------------ Media Queries  */

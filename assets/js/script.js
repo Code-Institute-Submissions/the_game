@@ -1,4 +1,3 @@
-// Character Strength 
 
 const cards = [
   {
