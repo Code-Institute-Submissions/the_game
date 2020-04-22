@@ -1,4 +1,5 @@
-# The Game by and for myself Robin Collins
+# The Game by 2nd Landmark Assignment for The Code Institute by Robin Collins
+
 My 2nd Landmark assignment with the code institute showcasing additional skills in JavaScript.
 
 I chose to design a game similar to the concept of the Game Top Trumps as it remains still popular since 1978.

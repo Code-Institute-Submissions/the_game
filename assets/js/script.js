@@ -1,3 +1,4 @@
+// strength cards 
 
 const cards = [
   {
@@ -131,7 +132,7 @@ const cards = [
     'strength': 4,
   },
 
-]
+],
 
 
 function showCard(cardID){
