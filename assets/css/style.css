@@ -79,8 +79,7 @@ h6 {
 /*    ------------------------Card image size   */
 
 img {
-    max-width: auto;
-    min-height: 25%;
+    max-width: 300px;
     padding: 0px;
 }
 
