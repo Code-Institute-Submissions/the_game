@@ -92,7 +92,7 @@ h6 {
   transition: transform 1s;
   transform-style: preserve-3d;
 }
-.flip-card-container1:click .flip-card1 {
+.flip-card-container1.flip .flip-card1 {
   transform: rotateY(-180deg);/* use oposite with each card*/
 }
 .flip-card-front1, .flip-card-back1 {
@@ -140,7 +140,7 @@ h6 {
   transition: transform 1s;
   transform-style: preserve-3d;
 }
-.flip-card-container2:click .flip-card2 {
+.flip-card-container2.flip .flip-card2 {
   transform: rotateY(180deg);
 }
 .flip-card-front2, .flip-card-back2 {

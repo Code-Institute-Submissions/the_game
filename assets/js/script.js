@@ -1,15 +1,26 @@
+console.log("BIG TEST");
+
+// Card one
+
+let flipCardContainer1 = document.querySelector(".flip-card-container1");
+      flipCardContainer1.addEventListener("click", function() {
+          console.log("flipCardContainer1 clicked")
+        flipCardContainer1.classList.toggle("flip");
+      });
+
+// Card two
+
+let flipCardContainer2 = document.querySelector(".flip-card-container2");
+      flipCardContainer2.addEventListener("click", function() {
+          console.log("flipCardContainer2 clicked")
+        flipCardContainer2.classList.toggle("flip");
+      });
+
+
 // strength cards alphabetically presented with Characters
 
-const cards = [
-  {
-    'name': 'Catboy',
-    'image_link': 'assets/images/Catboy_card.png',
-    'strength': 10,
-    'weight': 130,
-    'power': 10,
-    'age': 3,
-    'magic': 9,
-  },
+let cards = [
+  
   {
     'name': 'Bearz',
     'image_link': 'assets/images/Bear_card.png',
@@ -19,14 +30,14 @@ const cards = [
     'age': 5,
     'magic': 0.5,
   },
-  {
-    'name': 'Mook',
-    'image_link': 'assets/images/Mook_cards.png',
-    'strength': 3,
-    'weight': 0.1,
-    'power': 3,
+    {
+    'name': 'Catboy',
+    'image_link': 'assets/images/Catboy_card.png',
+    'strength': 10,
+    'weight': 130,
+    'power': 10,
     'age': 3,
-    'magic': 7,
+    'magic': 9,
   },
   {
     'name': 'Cat Castle',
@@ -137,6 +148,15 @@ const cards = [
     'magic': 7,
   },
   {
+    'name': 'Mook',
+    'image_link': 'assets/images/Mook_cards.png',
+    'strength': 3,
+    'weight': 0.1,
+    'power': 3,
+    'age': 3,
+    'magic': 7,
+  },
+  {
     'name': 'Mum-Mers',
     'image_link': 'assets/images/Mummers_card.png',
     'strength': 6,
@@ -234,20 +254,46 @@ const cards = [
     'power': 4,
     'age': 2,
     'magic': 10,
-  },
+  }
 
-],
-// card 1 flip 
+]
 
-const flipCardContainer1 = document.querySelector(".flip-card-container1");
-      flipCardContainer1.addEventListener("click", function() {
-        flipCardContainer1.classList.toggle("flip");
-      });
+// cards.length - 0to25. Use Math.random().
+
+/*let bearz = cards[0]
+let catboy = cards[1]
+let CatCastle = cards[2]
+let Darbin = cards[3]
+let Daah = cards[4]
+let Frog = cards[5]
+let Geko = cards[6]
+let Glammy = cards[7]
+let Karr = cards[8]
+let KayKee = cards[9]
+let KnottingMouth = cards[10]
+let MarMeeDuc = cards[11]
+let moo = cards[12]
+let mook = cards[13]
+let mummers = cards[14]
+let peepeels = cards[15]
+let peet = cards[16]
+let Raaaa = cards[17]
+let roryDragon = cards[18]
+let tRuck = cards[19]
+let twoo = cards[20]
+let upsteps = cards[21]
+let weewoo = cards[22]
+let Whistle = cards[23]
+let winkyface = cards[24]
+let catDog = cards[25]  use this when you know what you are actually doing*/
+
+// cat_boy.strength
 
 
-// card 2 flip 
+// Selecting a random character -- pick a random number between 0 and the 
+// cards.length - 1. Use Math.random(). Getting a random integer between two values in the document below
 
-const flipCardContainer2 = document.querySelector(".flip-card-container2");
-      flipCardContainer2.addEventListener("click", function() {
-        flipCardContainer2.classList.toggle("flip");
-      });
+
+console.log("flipCardContainer1");
+
+console.log("flipCardContainer2");
