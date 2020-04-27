@@ -1,13 +1,4 @@
-// card flip
-
-
-const flipCardContainer = document.querySelector('.flip-card-container');
-      flipCardContainer.addEventListener('click', function() {
-        flipCardContainer.classList.toggle('flip');
-      });
-
-
-// strength cards 
+// strength cards alphabetically presented with Characters
 
 const cards = [
   {
@@ -246,11 +237,17 @@ const cards = [
   },
 
 ],
+// card 1 flip 
+
+const flipCardContainer1 = document.querySelector(".flip-card-container1");
+      flipCardContainer1.addEventListener("click", function() {
+        flipCardContainer1.classList.toggle("flip");
+      });
 
 
-function showCard(cardID){
-	//Flip the card
-	let card_div = document.getElementById(cardID)
-	// Then swap class back to front
+// card 2 flip 
 
-}
+const flipCardContainer2 = document.querySelector(".flip-card-container2");
+      flipCardContainer2.addEventListener("click", function() {
+        flipCardContainer2.classList.toggle("flip");
+      });
