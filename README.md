@@ -45,6 +45,10 @@ I could focus back on the Bootstrap issues I'm still having.
 After some brief meditation I started to check the console with Google inspect tools and a little victory my varables are 
 working. I've just got to refesh my memory and apply some more research to glue it together with everything else.
 
+After a successful second attempt with Repl.it I managed to get the flip card working. I then managed to successfully incorporate it within GitPod
+However noticed I need to be careful when using it with Bootstrap as it turned the cards into paddles. Knowing this means further inpsection is required
+where more than one card resides on the same page to allow me to use the grid system.
+
 
 ### Deployment.
 
