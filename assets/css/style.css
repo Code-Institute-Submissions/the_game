@@ -76,6 +76,12 @@ h6 {
     font-size: 20px;
     color: #f9d302;
 }
+/*    ------------------------Card image size   */ /*   Tested and not require since card flip info   */
+
+img {
+    max-width: 300px;
+    padding: 0px;
+}
 
 /*    ------------------------ Card Flip information Player 1*/
 
@@ -92,7 +98,7 @@ h6 {
   transition: transform 1s;
   transform-style: preserve-3d;
 }
-.flip-card-container1:click .flip-card1 {
+.flip-card-container1:hover .flip-card1 {
   transform: rotateY(-180deg);/* use oposite with each card*/
 }
 .flip-card-front1, .flip-card-back1 {
@@ -124,6 +130,7 @@ h6 {
   height: 100%;
 }
 
+
 /*    ------------------------ Card Flip information Player 2*/
 
 .flip-card-container2 {
@@ -139,7 +146,7 @@ h6 {
   transition: transform 1s;
   transform-style: preserve-3d;
 }
-.flip-card-container2:click .flip-card2 {
+.flip-card-container2:hover .flip-card2 {
   transform: rotateY(180deg);
 }
 .flip-card-front2, .flip-card-back2 {
@@ -170,11 +177,6 @@ h6 {
   width: 100%;
   height: 100%;
 }
-
-span {
-    padding: 10px;
-}
-
 
 /*    ------------------------Footer   */
 
@@ -219,4 +221,5 @@ button[type="submit"] {
     background-color: #569d44;
     text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
 }
+
 
