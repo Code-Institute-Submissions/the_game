@@ -49,6 +49,9 @@ After a successful second attempt with Repl.it I managed to get the flip card wo
 However noticed I need to be careful when using it with Bootstrap as it turned the cards into paddles. Knowing this means further inpsection is required
 where more than one card resides on the same page to allow me to use the grid system.
 
+I finally made progress when a misplaced colon was replaced with a full stop allowing my flip testing to finally work and reasure that I wasn't far
+wrong initually the euphoria and Ululation on this little victory has given me the confidence I needed at this stage to make the next step.
+
 
 ### Deployment.
 

@@ -24,11 +24,20 @@ let cards = [
   {
     'name': 'Bearz',
     'image_link': 'assets/images/Bear_card.png',
-    'strength': 100,
+    'strength': 10,
     'weight': 140,
     'power': 10,
     'age': 5,
     'magic': 0.5,
+  },
+  {
+    'name': 'Boobee',
+    'image_link': 'assets/images/boobee_card.png',
+    'strength': 2,
+    'weight': 2,
+    'power': 5,
+    'age': 12,
+    'magic': 10,
   },
     {
     'name': 'Catboy',
@@ -94,6 +103,15 @@ let cards = [
     'magic': 8,
   },
   {
+    'name': 'Ghost',
+    'image_link': 'assets/images/ghost_card.png',
+    'strength': 7,
+    'weight': 0,
+    'power': 8,
+    'age': 1000,
+    'magic': 8,
+  },
+  {
     'name': 'Glammy',
     'image_link': 'assets/images/Glammy_card.png',
     'strength': 7,
@@ -101,6 +119,15 @@ let cards = [
     'power': 7,
     'age': 49,
     'magic': 10,
+  },
+  {
+    'name': 'Grand',
+    'image_link': 'assets/images/grand_card.png',
+    'strength': 10,
+    'weight': 250,
+    'power': 8,
+    'age': 75,
+    'magic': 8,
   },
   {
     'name': 'Karr',
@@ -164,6 +191,15 @@ let cards = [
     'power': 8,
     'age': 70,
     'magic': 9,
+  },
+  {
+    'name': 'Oppih',
+    'image_link': 'assets/images/oppih_card.png',
+    'strength': 7,
+    'weight': 300,
+    'power': 7,
+    'age': 18,
+    'magic': 8,
   },
   {
     'name': 'Pee-Peels',
@@ -260,6 +296,14 @@ let cards = [
 
 // cards.length - 0to25. Use Math.random().
 
+$(function() {
+    $('a.click').click(function(e) {
+        e.preventDefault();
+        var number = Math.floor(Math.random()*randomImage.length);
+        $(this).html('<img src="'+randomImage[number]+'" />');
+    });
+});
+
 /*let bearz = cards[0]
 let catboy = cards[1]
 let CatCastle = cards[2]
@@ -294,6 +338,3 @@ let catDog = cards[25]  use this when you know what you are actually doing*/
 // cards.length - 1. Use Math.random(). Getting a random integer between two values in the document below
 
 
-console.log("flipCardContainer1");
-
-console.log("flipCardContainer2");
