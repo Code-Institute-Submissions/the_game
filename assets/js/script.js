@@ -1,5 +1,3 @@
-console.log("BIG TEST");
-
 // Card one
 
 let flipCardContainer1 = document.querySelector(".flip-card-container1");
@@ -17,7 +15,65 @@ let flipCardContainer2 = document.querySelector(".flip-card-container2");
       });
 
 
-// strength cards alphabetically presented with Characters
+function playGame() {
+  // Wait for player 1 to click on their card
+  // onclick
+  let playerOneCharacter = chooseCharacter()
+ 
+ 
+  // Wait for player 2 to click on their card
+  // onclick
+  let playerTwoCharacter = chooseCharacter()
+ 
+ 
+  // Score should be some data structure that holds the scores for both players
+  // There's probably a better way to do this, but for now, make it an array of two numbers.
+  let score = getScore(playerOneCharacter, playerTwoCharacter)
+ 
+  // Update a global variable keeping track of each character's score, and the page
+ 
+  // I know I said no global variables, but we'll fix that later.
+ 
+  // When the game is done, use an if statement to say who's the winner. Not
+  // sure if this has to be in this function or another. Will let you decide.
+ 
+}
+ 
+/* Given two characters, compare them and return a score.
+ 
+Args:
+  characterOne, characterTwo: character objects. The characters to compare
+ 
+Returns:
+  array of two numbers: The scores for characterOne and characterTwo respectively.
+*/
+
+
+function getScore(characterOne, characterTwo) {
+  if (characterOne.strength > characterTwo.strength) {
+	return [2, 0];
+  }
+ 
+  else if (characterOne.strength < characterTwo.strength) {
+	return [0, 2];
+  }
+ 
+  else {
+	return [1, 1];
+  }
+ 
+}
+ 
+ 
+ 
+/* Choose a character from the list of characters in the characters array.
+*/
+function chooseCharacter(){
+ 
+}
+
+
+// all atrributes cards alphabetically presented with Characters
 
 let cards = [
   
@@ -292,44 +348,49 @@ let cards = [
     'magic': 10,
   }
 
-]
+];
 
-// cards.length - 0to25. Use Math.random().
+// cards.length - 0 to 29. Use Math.random().
 
 $(function() {
-    $('a.click').click(function(e) {
+    $('.cardy').click(function(e) {
         e.preventDefault();
-        var number = Math.floor(Math.random()*randomImage.length);
-        $(this).html('<img src="'+randomImage[number]+'" />');
+        var number = Math.floor(Math.random()*cards.length);
+        //console.log(cards[number]);
+        $(this).children('div').children('div').children('img').attr('src', cards[number]);
     });
 });
 
-/*let bearz = cards[0]
-let catboy = cards[1]
-let CatCastle = cards[2]
-let Darbin = cards[3]
-let Daah = cards[4]
-let Frog = cards[5]
-let Geko = cards[6]
-let Glammy = cards[7]
-let Karr = cards[8]
-let KayKee = cards[9]
-let KnottingMouth = cards[10]
-let MarMeeDuc = cards[11]
-let moo = cards[12]
-let mook = cards[13]
-let mummers = cards[14]
-let peepeels = cards[15]
-let peet = cards[16]
-let Raaaa = cards[17]
-let roryDragon = cards[18]
-let tRuck = cards[19]
-let twoo = cards[20]
-let upsteps = cards[21]
-let weewoo = cards[22]
-let Whistle = cards[23]
-let winkyface = cards[24]
-let catDog = cards[25]  use this when you know what you are actually doing*/
+cards[0] = "assets/images/cards/Bear_card.png"; //Bearz
+cards[1] = "assets/images/cards/boobee_card.png"; //Boobee
+cards[2] = "assets/images/cards/Catboy_card.png"; //Catboy
+cards[3] = "assets/images/cards/Catcalstle_card.png"; //Cat Castle
+cards[4] = "assets/images/cards/Catdog_card.png"; // Catdog
+cards[6] = "assets/images/cards/Daadee_card.png"; // Daah
+cards[5] = "assets/images/cards/Darbin_card.png"; // Darbin
+cards[7] = "assets/images/cards/Frog_card.png"; //Frog
+cards[8] = "assets/images/cards/Geko_card.png"; // Geko
+cards[9] = "assets/images/cards/ghost_card.png"; // Ghost
+cards[10] = "assets/images/cards/Glammy_card.png"; //Glammy
+cards[11] = "assets/images/cards/grand_card.png"; //Grand
+cards[12] = "assets/images/cards/Karr_card.png"; // Karr
+cards[13] = "assets/images/cards/Kaykee_card.png"; // Kaykey
+cards[14] = "assets/images/cards/Knottingmouth_card.png"; // Knotting-Mouth
+cards[15] = "assets/images/cards/Marmee_card.png"; // Mar-me-Duc
+cards[16] = "assets/images/cards/Moo_card.png"; // Moo
+cards[17] = "assets/images/cards/Mook_card.png"; // Mook
+cards[18] = "assets/images/cards/Mummers_card.png"; //Oppih
+cards[29] = "assets/images/cards/oppih_card.png"; // Catdog
+cards[20] = "assets/images/cards/Peapeel_card.png"; //Pee-Peels
+cards[21] = "assets/images/cards/Peet_card.png"; // Peet
+cards[22] = "assets/images/cards/Raaaaa_card.png"; // Raaaaa
+cards[23] = "assets/images/cards/Rory_Dragon_card.png"; // Rory Dragon
+cards[24] = "assets/images/cards/Truck_card.png"; // T-Ruck
+cards[25] = "assets/images/cards/Twoo_card.png"; // Twoo
+cards[26] = "assets/images/cards/Upsteps_card.png"; // UpSteps
+cards[27] = "assets/images/cards/Weewoo_card.png"; // Weewoo
+cards[28] = "assets/images/cards/Whistle_card.png"; // Whistle
+cards[29] = "assets/images/cards/Winky_Face_card.png"; // Winky Face
 
 // cat_boy.strength
 
