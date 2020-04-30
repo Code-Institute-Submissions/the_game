@@ -15,64 +15,6 @@ let flipCardContainer2 = document.querySelector(".flip-card-container2");
       });
 
 
-function playGame() {
-  // Wait for player 1 to click on their card
-  // onclick
-  let playerOneCharacter = chooseCharacter()
- 
- 
-  // Wait for player 2 to click on their card
-  // onclick
-  let playerTwoCharacter = chooseCharacter()
- 
- 
-  // Score should be some data structure that holds the scores for both players
-  // There's probably a better way to do this, but for now, make it an array of two numbers.
-  let score = getScore(playerOneCharacter, playerTwoCharacter)
- 
-  // Update a global variable keeping track of each character's score, and the page
- 
-  // I know I said no global variables, but we'll fix that later.
- 
-  // When the game is done, use an if statement to say who's the winner. Not
-  // sure if this has to be in this function or another. Will let you decide.
- 
-}
- 
-/* Given two characters, compare them and return a score.
- 
-Args:
-  characterOne, characterTwo: character objects. The characters to compare
- 
-Returns:
-  array of two numbers: The scores for characterOne and characterTwo respectively.
-*/
-
-
-function getScore(characterOne, characterTwo) {
-  if (characterOne.strength > characterTwo.strength) {
-	return [2, 0];
-  }
- 
-  else if (characterOne.strength < characterTwo.strength) {
-	return [0, 2];
-  }
- 
-  else {
-	return [1, 1];
-  }
- 
-}
- 
- 
- 
-/* Choose a character from the list of characters in the characters array.
-*/
-function chooseCharacter(){
- 
-}
-
-
 // all atrributes cards alphabetically presented with Characters
 
 let cards = [
@@ -392,10 +334,65 @@ cards[27] = "assets/images/cards/Weewoo_card.png"; // Weewoo
 cards[28] = "assets/images/cards/Whistle_card.png"; // Whistle
 cards[29] = "assets/images/cards/Winky_Face_card.png"; // Winky Face
 
-// cat_boy.strength
+
+// Player One Choses attribute().
+
+function playGame() {
+  // Wait for player 1 to click on their card
+  // onclick
+  let playerOneCharacter = chooseCharacter()
+ 
+  // Wait for player 2 to click on their card
+  // onclick
+  let playerTwoCharacter = chooseCharacter()
+ 
+  // Score should be some data structure that holds the scores for both players
+  // There's probably a better way to do this, but for now, make it an array of two numbers.
+  let score = getScore(playerOneCharacter, playerTwoCharacter)
+ 
+  // Update a global variable keeping track of each character's score, and the page
+ 
+  // I know I said no global variables, but we'll fix that later.
+ 
+  // When the game is done, use an if statement to say who's the winner. Not
+  // sure if this has to be in this function or another. Will let you decide.
+ 
+}
+ 
+/* Given two characters, compare them and return a score.
+ 
+Args:
+  characterOne, characterTwo: character objects. The characters to compare
+ 
+Returns:
+  array of two numbers: The scores for characterOne and characterTwo respectively.
+*/
+
 
 
 // Selecting a random character -- pick a random number between 0 and the 
 // cards.length - 1. Use Math.random(). Getting a random integer between two values in the document below
 
+function getScore(characterOne, characterTwo) {
+  if (characterOne.strength > characterTwo.strength) {
+	return [2, 0];
+  }
+ 
+  else if (characterOne.strength < characterTwo.strength) {
+	return [0, 2];
+  }
+ 
+  else {
+	return [1, 1];
+  }
+ 
+}
+ 
+ 
+ 
+/* Choose a character from the list of characters in the characters array.
+*/
+function chooseCharacter(){
+ 
+}
 

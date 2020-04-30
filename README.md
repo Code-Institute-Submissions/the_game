@@ -8,9 +8,36 @@ developed a very unique and comical style.
 
 ### UX. 
 
-I used Balsamiq wireframe for my designs which can be found in the UX-designs folder within images.
+I used Balsamiq wireframe for my designs which can be found in the UX-designs folder within images. 
+I like to think I have taken on a simplistic approach with a title with a simple 3 button navigation.
 
 ### Features. 
+
+This project will feature an even deck of cards (26 to 32) divided by 2 players.
+
+Player 1 click on their card and choses any attribute they think will beat their opponant. On selecting their choice player 2
+card can be turned with a click of automatically when they not the primary player. Primary player is also determined by who won the 
+previous round. Player 1 will aways start a game who starts shouldn't infulence a game.
+
+All cards are selected at random and divided equally. No card should duplicate.
+
+If a card has an idential score as the other player then the cards are either classed as a draw or the points are divided equally.
+I cannot at this stage determine how to keep the point of the draw roll over for result of next round to administer
+points to sussesful player. This may be a fuction completed at a later date when I become more familiar with JavaScript.
+If player 1 wins any round they get to continue to chose atribute until they lose round then Player 2 will lead and
+contiune in the same way.
+
+Scores will be displayed between two cards stating clearly who is winning or losing.
+
+All cards are discarded after each round limiting games to number of turns 12 to 16 based on the number of cards.
+
+When the outcome result is made I clickin on the Home/Reset button will start the game again. A more complex way
+of recording scores results maybe considedered if progress is made and time constraints allow it.
+
+The About page will feature the rules of the game. It will also have a brief history of the characters featured within the game.
+
+The Contact page will be for people intersted in submitting additional card or character ideas or just to keep in touch regarding
+alternate games I may chose to develop in the future when JavaScript becomes second nature.
 
 
 ### Technologies Used.
@@ -52,10 +79,16 @@ where more than one card resides on the same page to allow me to use the grid sy
 I finally made progress when a misplaced colon was replaced with a full stop allowing my flip testing to finally work and reasure that I wasn't far
 wrong initually the euphoria and Ululation on this little victory has given me the confidence I needed at this stage to make the next step.
 
+Some additional progress was being made as now the images are rotating randomly. Now I need the attributes to be active on a click
+this is the stage where I realised that I have been a little over ambitious as to click on card then flip the card and select and 
+attribute, preventing player 2 to flip their card until its been requested to prevent cheating as a different attribute could be 
+chosen to their advantage. I really did think I planned this which I did but hadn't broke it down - I feel I trying to run before
+I can walk. At the sametime a bite size approach would have been more rewarding. I am definatley learning by my mistakes.
+
 
 ### Deployment.
 
-### Credits
+### Credits.
 
 ### Content.
 
@@ -69,3 +102,9 @@ The idea is losely based on Top trumps
 
 Card Flip Effect (HTML & CSS) by Coding Journey https://www.youtube.com/watch?v=Lc6wyl1KdOc
 As mentioned about I used this to educate my self and practice making various varations.
+
+I used stack overflow for reference on fliping the random images.
+
+WC3 Schools was always a place to go as a reference library.
+
+I like to express my gratitude to Brian Macharia for his support advice and understanding as my mentor with this project.
