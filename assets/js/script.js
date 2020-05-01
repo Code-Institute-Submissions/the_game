@@ -21,7 +21,7 @@ let cards = [
   
   {
     'name': 'Bearz',
-    'image_link': 'assets/images/Bear_card.png',
+    'image_link': 'assets/images/cards/Bear_card.png',
     'strength': 10,
     'weight': 140,
     'power': 10,
@@ -30,7 +30,7 @@ let cards = [
   },
   {
     'name': 'Boobee',
-    'image_link': 'assets/images/boobee_card.png',
+    'image_link': 'assets/images/cards/boobee_card.png',
     'strength': 2,
     'weight': 2,
     'power': 5,
@@ -39,7 +39,7 @@ let cards = [
   },
     {
     'name': 'Catboy',
-    'image_link': 'assets/images/Catboy_card.png',
+    'image_link': 'assets/images/cards/Catboy_card.png',
     'strength': 10,
     'weight': 130,
     'power': 10,
@@ -48,7 +48,7 @@ let cards = [
   },
   {
     'name': 'Cat Castle',
-    'image_link': 'assets/images/Catcastle_card.png',
+    'image_link': 'assets/images/cards/Catcastle_card.png',
     'strength': 10,
     'weight': 10000,
     'power': 10,
@@ -57,7 +57,7 @@ let cards = [
   },
   {
     'name': 'Catdog',
-    'image_link': 'assets/images/Catdog_card.png',
+    'image_link': 'assets/images/cards/Catdog_card.png',
     'strength': 7,
     'weight': 10,
     'power': 8,
@@ -66,7 +66,7 @@ let cards = [
   },
   {
     'name': 'Daah',
-    'image_link': 'assets/images/Daadee_card.png',
+    'image_link': 'assets/images/cards/Daadee_card.png',
     'strength': 8,
     'weight': 85,
     'power': 8,
@@ -75,7 +75,7 @@ let cards = [
   },
   {
     'name': 'Darbin',
-    'image_link': 'assets/images/Darbin_card.png',
+    'image_link': 'assets/images/cards/Darbin_card.png',
     'strength': 10,
     'weight': 117,
     'power': 9,
@@ -84,7 +84,7 @@ let cards = [
   },
   {
     'name': 'Frog',
-    'image_link': 'assets/images/Frog_card.png',
+    'image_link': 'assets/images/cards/Frog_card.png',
     'strength': 5,
     'weight': 1,
     'power': 6,
@@ -93,7 +93,7 @@ let cards = [
   },
   {
     'name': 'Geko',
-    'image_link': 'assets/images/Geko_card.png',
+    'image_link': 'assets/images/cards/Geko_card.png',
     'strength': 6,
     'weight': 5,
     'power': 7,
@@ -102,7 +102,7 @@ let cards = [
   },
   {
     'name': 'Ghost',
-    'image_link': 'assets/images/ghost_card.png',
+    'image_link': 'assets/images/cards/ghost_card.png',
     'strength': 7,
     'weight': 0,
     'power': 8,
@@ -111,7 +111,7 @@ let cards = [
   },
   {
     'name': 'Glammy',
-    'image_link': 'assets/images/Glammy_card.png',
+    'image_link': 'assets/images/cards/Glammy_card.png',
     'strength': 7,
     'weight': 60,
     'power': 7,
@@ -120,7 +120,7 @@ let cards = [
   },
   {
     'name': 'Grand',
-    'image_link': 'assets/images/grand_card.png',
+    'image_link': 'assets/images/cards/grand_card.png',
     'strength': 10,
     'weight': 250,
     'power': 8,
@@ -129,7 +129,7 @@ let cards = [
   },
   {
     'name': 'Karr',
-    'image_link': 'assets/images/Karr_cards.png',
+    'image_link': 'assets/images/cards/Karr_cards.png',
     'strength': 8,
     'weight': 90,
     'power': 8,
@@ -138,7 +138,7 @@ let cards = [
   },
   {
     'name': 'Kay-kee',
-    'image_link': 'assets/images/Kaykee_cards.png',
+    'image_link': 'assets/images/cards/Kaykee_cards.png',
     'strength': 2,
     'weight': 0.1,
     'power': 2,
@@ -147,7 +147,7 @@ let cards = [
   },
   {
     'name': 'Knotting-Mouth',
-    'image_link': 'assets/images/Knottingmouth_card.png',
+    'image_link': 'assets/images/cards/Knottingmouth_card.png',
     'strength': 10,
     'weight': 400,
     'power': 9,
@@ -156,7 +156,7 @@ let cards = [
   },
   {
     'name': 'Mar-Mee-duc',
-    'image_link': 'assets/images/Marmee_card.png',
+    'image_link': 'assets/images/cards/Marmee_card.png',
     'strength': 5,
     'weight': 68,
     'power': 6,
@@ -165,7 +165,7 @@ let cards = [
   },
   {
     'name': 'Moo',
-    'image_link': 'assets/images/Moo_card.png',
+    'image_link': 'assets/images/cards/Moo_card.png',
     'strength': 10,
     'weight': 300,
     'power': 9,
@@ -174,7 +174,7 @@ let cards = [
   },
   {
     'name': 'Mook',
-    'image_link': 'assets/images/Mook_cards.png',
+    'image_link': 'assets/images/cards/Mook_cards.png',
     'strength': 3,
     'weight': 0.1,
     'power': 3,
@@ -183,7 +183,7 @@ let cards = [
   },
   {
     'name': 'Mum-Mers',
-    'image_link': 'assets/images/Mummers_card.png',
+    'image_link': 'assets/images/cards/Mummers_card.png',
     'strength': 6,
     'weight': 70,
     'power': 8,
@@ -192,7 +192,7 @@ let cards = [
   },
   {
     'name': 'Oppih',
-    'image_link': 'assets/images/oppih_card.png',
+    'image_link': 'assets/images/cards/oppih_card.png',
     'strength': 7,
     'weight': 300,
     'power': 7,
@@ -201,7 +201,7 @@ let cards = [
   },
   {
     'name': 'Pee-Peels',
-    'image_link': 'assets/images/Peapeel_card.png',
+    'image_link': 'assets/images/cards/Peapeel_card.png',
     'strength': 10,
     'weight': 150,
     'power': 9,
@@ -210,7 +210,7 @@ let cards = [
   },
   {
     'name': 'Peet',
-    'image_link': 'assets/images/Peet_card.png',
+    'image_link': 'assets/images/cards/Peet_card.png',
     'strength': 9,
     'weight': 94,
     'power': 7,
@@ -219,7 +219,7 @@ let cards = [
   },
   {
     'name': 'Raaaa',
-    'image_link': 'assets/images/Raaaaa_cards.png',
+    'image_link': 'assets/images/cards/Raaaaa_cards.png',
     'strength': 10,
     'weight': 450,
     'power': 9,
@@ -228,7 +228,7 @@ let cards = [
   },
   {
     'name': 'Rory Dragon',
-    'image_link': 'assets/images/Rory_Dragon_card.png',
+    'image_link': 'assets/images/cards/Rory_Dragon_card.png',
     'strength': 10,
     'weight': 1000,
     'power': 10,
@@ -237,7 +237,7 @@ let cards = [
   },
   {
     'name': 'T-Ruck',
-    'image_link': 'assets/images/Truck_card.png',
+    'image_link': 'assets/images/cards/Truck_card.png',
     'strength': 8,
     'weight': 100,
     'power': 8,
@@ -246,7 +246,7 @@ let cards = [
   },
   {
     'name': 'Twoo',
-    'image_link': 'assets/images/Twoo_card.png',
+    'image_link': 'assets/images/cards/Twoo_card.png',
     'strength': 7,
     'weight': 9,
     'power': 8,
@@ -255,7 +255,7 @@ let cards = [
   },
   {
     'name': 'Upsteps',
-    'image_link': 'assets/images/Upsteps_card.png',
+    'image_link': 'assets/images/cards/Upsteps_card.png',
     'strength': 9,
     'weight': 200,
     'power': 8,
@@ -264,7 +264,7 @@ let cards = [
   },
   {
     'name': 'Weewoo',
-    'image_link': 'assets/images/Weewoo_card.png',
+    'image_link': 'assets/images/cards/Weewoo_card.png',
     'strength': 7,
     'weight': 3,
     'power': 8,
@@ -273,7 +273,7 @@ let cards = [
   },
   {
     'name': 'Whistle',
-    'image_link': 'assets/images/Whistle_card.png',
+    'image_link': 'assets/images/cards/Whistle_card.png',
     'strength': 7,
     'weight': 90,
     'power': 9,
@@ -282,7 +282,7 @@ let cards = [
   },
    {
     'name': 'Winky-Face',
-    'image_link': 'assets/images/Winky_Face_card.png',
+    'image_link': 'assets/images/cards/Winky_Face_card.png',
     'strength': 4,
     'weight': 8,
     'power': 4,
@@ -303,7 +303,7 @@ $(function() {
     });
 });
 
-cards[0] = "assets/images/cards/Bear_card.png"; //Bearz
+cards[0] = "assets/images/cards/Catboy_card.png"; //Bearz
 cards[1] = "assets/images/cards/boobee_card.png"; //Boobee
 cards[2] = "assets/images/cards/Catboy_card.png"; //Catboy
 cards[3] = "assets/images/cards/Catcalstle_card.png"; //Cat Castle
@@ -340,11 +340,11 @@ cards[29] = "assets/images/cards/Winky_Face_card.png"; // Winky Face
 function playGame() {
   // Wait for player 1 to click on their card
   // onclick
-  let playerOneCharacter = chooseCharacter()
+  let playerOneCharacter = selectCard()
  
   // Wait for player 2 to click on their card
   // onclick
-  let playerTwoCharacter = chooseCharacter()
+  let playerTwoCharacter = selectCard()
  
   // Score should be some data structure that holds the scores for both players
   // There's probably a better way to do this, but for now, make it an array of two numbers.
@@ -368,8 +368,6 @@ Returns:
   array of two numbers: The scores for characterOne and characterTwo respectively.
 */
 
-
-
 // Selecting a random character -- pick a random number between 0 and the 
 // cards.length - 1. Use Math.random(). Getting a random integer between two values in the document below
 
@@ -387,12 +385,26 @@ function getScore(characterOne, characterTwo) {
   }
  
 }
- 
- 
- 
-/* Choose a character from the list of characters in the characters array.
-*/
-function chooseCharacter(){
- 
-}
 
+/* Run all the steps that constitiute a player's turn in the game.
+
+This is triggered when a player clicks on their card ('plays their turn').
+
+Steps:
+
+1,Assign them a character and update their card in the UI.
+2.Update game stats, includin scores.
+3.Prepare the game UI for the next turn/round.
+4.If this turn completes final round, end the game and announce the winner.
+
+
+Arguments:
+cardID: String. The element ID of the current player's card in the UI.
+*/
+/*
+function playTurn(cardsID) {
+    let character = chooseRandomCharacter()
+    let cards = document.getElementById(cardID)
+
+    if (cardID === 'playerOne')
+}*/

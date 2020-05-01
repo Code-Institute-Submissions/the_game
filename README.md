@@ -85,6 +85,11 @@ attribute, preventing player 2 to flip their card until its been requested to pr
 chosen to their advantage. I really did think I planned this which I did but hadn't broke it down - I feel I trying to run before
 I can walk. At the sametime a bite size approach would have been more rewarding. I am definatley learning by my mistakes.
 
+Looking at my assignment in it's current state it works not as smoothly as I like but it works on the principle of playing with
+random cards. What I do realise is that the better the function the more the user will enjoy the game.
+
+
+
 
 ### Deployment.
 
