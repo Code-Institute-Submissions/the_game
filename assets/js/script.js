@@ -340,11 +340,11 @@ cards[29] = "assets/images/cards/Winky_Face_card.png"; // Winky Face
 function playGame() {
   // Wait for player 1 to click on their card
   // onclick
-  let playerOneCharacter = selectCard()
+  let playerOneCharacter = chooseCharacter()
  
   // Wait for player 2 to click on their card
   // onclick
-  let playerTwoCharacter = selectCard()
+  let playerTwoCharacter = chooseCharacter()
  
   // Score should be some data structure that holds the scores for both players
   // There's probably a better way to do this, but for now, make it an array of two numbers.
@@ -368,6 +368,8 @@ Returns:
   array of two numbers: The scores for characterOne and characterTwo respectively.
 */
 
+
+
 // Selecting a random character -- pick a random number between 0 and the 
 // cards.length - 1. Use Math.random(). Getting a random integer between two values in the document below
 
@@ -385,26 +387,11 @@ function getScore(characterOne, characterTwo) {
   }
  
 }
-
-/* Run all the steps that constitiute a player's turn in the game.
-
-This is triggered when a player clicks on their card ('plays their turn').
-
-Steps:
-
-1,Assign them a character and update their card in the UI.
-2.Update game stats, includin scores.
-3.Prepare the game UI for the next turn/round.
-4.If this turn completes final round, end the game and announce the winner.
-
-
-Arguments:
-cardID: String. The element ID of the current player's card in the UI.
+ 
+ 
+ 
+/* Choose a character from the list of characters in the characters array.
 */
-/*
-function playTurn(cardsID) {
-    let character = chooseRandomCharacter()
-    let cards = document.getElementById(cardID)
-
-    if (cardID === 'playerOne')
-}*/
+function chooseCharacter(){
+ 
+}
