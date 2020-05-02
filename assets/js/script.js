@@ -336,19 +336,19 @@ cards[29] = "assets/images/cards/Winky_Face_card.png"; // Winky Face
 
 
 // Player One Choses attribute().
-
+/*
 function playGame() {
   // Wait for player 1 to click on their card
   // onclick
-  let playerOneCharacter = chooseCharacter()
+  let playerOneCharacter = chooseCharacter();
  
   // Wait for player 2 to click on their card
   // onclick
-  let playerTwoCharacter = chooseCharacter()
+  let playerTwoCharacter = chooseCharacter();
  
   // Score should be some data structure that holds the scores for both players
   // There's probably a better way to do this, but for now, make it an array of two numbers.
-  let score = getScore(playerOneCharacter, playerTwoCharacter)
+  let score = getScore(playerOneCharacter, playerTwoCharacter);
  
   // Update a global variable keeping track of each character's score, and the page
  
@@ -359,14 +359,14 @@ function playGame() {
  
 }
  
-/* Given two characters, compare them and return a score.
+// Given two characters, compare them and return a score.
  
-Args:
-  characterOne, characterTwo: character objects. The characters to compare
+// Args:
+  // characterOne, characterTwo: character objects. The characters to compare
  
-Returns:
-  array of two numbers: The scores for characterOne and characterTwo respectively.
-*/
+//  Returns:
+  // array of two numbers: The scores for characterOne and characterTwo respectively.
+
 
 
 
@@ -388,10 +388,40 @@ function getScore(characterOne, characterTwo) {
  
 }
  
- 
- 
-/* Choose a character from the list of characters in the characters array.
-*/
+// Choose a character from the list of characters in the characters array.
+
 function chooseCharacter(){
  
 }
+
+function playTurn(cardsID); {
+  let cards = chooseRandomCharacter();
+  let cards = document.getElementById(cardsID);
+}
+
+if (cards.innerHTML !=''); {}
+
+if (cardsID === 'playerOne');
+else if (cardsID === 'playerTwo');
+
+console.log(game);
+
+let player1 = document.createElement('span');
+player1.innertext = character.name
+card.appendChild(player1);
+
+
+let strength = document.createElement('span');
+strength.innerText = Character.strength
+card.appendChild(strength);
+
+let cardsImage = document.createElement('img');
+let cardsImage = document.createElement('img');
+cardsImage.SetAttribute('scr', imageDirectory + character.image);
+card.appendChild(cardsImage);
+
+if (game.playerTwoTurnsSoFar === game.currentGameRound);
+
+}
+
+} */
