@@ -371,8 +371,10 @@ function playGame() {
 
 
 // Selecting a random character -- pick a random number between 0 and the 
-// cards.length - 1. Use Math.random(). Getting a random integer between two values in the document below
+// cards.length - 1. Use Math.random(). Getting a random integer between two values in the document below*/
 
+
+// below section worked on test
 function getScore(characterOne, characterTwo) {
   if (characterOne.strength > characterTwo.strength) {
 	return [2, 0];
@@ -387,7 +389,7 @@ function getScore(characterOne, characterTwo) {
   }
  
 }
- 
+ /*
 // Choose a character from the list of characters in the characters array.
 
 function chooseCharacter(){

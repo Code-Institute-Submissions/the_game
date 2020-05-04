@@ -6,12 +6,42 @@ I chose to design a game similar to the concept of the Game Top Trumps as it rem
 As a creative person I have also ways drawn doodles on paper during my thinking process and over time I have 
 developed a very unique and comical style.
 
+I started thinking of basing it on a Fantasy style elelment as a big fan of that genre.
+
+Studying my doodles I noticed they all characters based around my great nephews key words from a nearly 3 year old.
+Who identifies himself as Cat boy it with this I therefore have designed a comic book theme which is still very popular
+today as it was 12 years ago with the release of films like Iron Man.
+
+I'd like to think the age group is 2 to 99 but assistance would be required and there is a level of educational value
+to the game compairing traits and second guessing the opponants cards as expreienced players will be familar with deduction.
+
 ### UX. 
 
 I used Balsamiq wireframe for my designs which can be found in the UX-designs folder within images. 
 I like to think I have taken on a simplistic approach with a title with a simple 3 button navigation.
 
 ### Features. 
+
+#1, Will Do
+
+The cards will feature a animation to make them look like authentic cards.
+Have a challenge using the strength ability with random cards selected. Player one goes first it then give a score between player 
+one and players two. 
+
+
+#2, Stretch Goal
+
+I would like to allow the abilities other than strength to be viable as will increase usability allowing more competition 
+this will also make it more playable as more competition between player one and player two.
+
+#3, Wont Do
+
+At this stage I won't make it for additional players 3, 4, 5 and 6. I also won't have additonal cards but definately viable and
+possible when I come back to this project post assesment as there is so much depth that could be added. I could even polish
+the style of cards even open up its user base to adults but there would be fun to be gained out of this for adults.
+
+
+
 
 This project will feature an even deck of cards (26 to 32) divided by 2 players.
 
@@ -41,6 +71,14 @@ alternate games I may chose to develop in the future when JavaScript becomes sec
 
 
 ### Technologies Used.
+
+Boostrap was used for my layout. Orignially I was using Font awsome but chose to remove my it when I found it wasn't
+nessacary within my design and did have a few implementation problems and found that it wasn't essential for my project at this
+stage. I would consider it possibly in the future should I get time to implement it and it complemented the site design.
+
+I did look at JQuery and Jasmine to see if I required them for my assignments but feel I need more hands on experience to
+become more familar with them. 
+I have focused mainly with JavaScript directly to get to grips with it more.
 
 
 ### Testing.
@@ -98,9 +136,19 @@ uses computers in my area and despite the country in lockdown I don't have a bud
 and successfully. As I write this I am waiting for a friend of a friend to call with additonal advice. I am really concerned
 but there is part of me that is extremely excited that I will be good at JavaScript in the no too distant future.
 
+Another 4 hours testing snippets of code in the console with google inpect tool and no results. Checking code with checkers
+it's a May Bank Holiday Monday but not in UK this year due to change then VE Day celebrations due to happen on Friday. However 
+I'm stuck in the mud I have gone over all old course material and unfortunately it doesn't give me the answers to what I 
+require. I have had feed back from a friend who is talented but secretive in JavaScript and wont help me. I'm now wondering what
+to do now. In all honesty I am at a position were I think I should just submit the assignment and hope for the best.
+In my head I know what I'm doing - in practise nothing coming from my hard work.
 
+I understand the learning process comes from research but a little confused as I have reasearch a lot of wrong information and 
+fail to remeber the correct information because of the wrong answers found first with people using forums like me. At this late
+stage I am going to purchase books in a bid to grasp this part of the course. I'm not going to be beaten even if I ready
+to submit at this stage as I am successfully waisting time and not learning anything but dispair and a sense of isolation.
 
-
+I am now back on the course in a bid to manipulate the DOM (Document Object Model) in a bid to get this function working.
 ### Deployment.
 
 ### Credits.
@@ -118,6 +166,8 @@ I also like to thank the tutors for their help and advice in particular Scott an
 All Images are by my hand and then converted with Graphic Tablet either with Adobe Photoshop or Adobe Illustrator.
 
 The idea is losely based on Top trumps 
+
+Used SitePoint JavaScript books for reference 
 
 ### Acknowledgments.
 
