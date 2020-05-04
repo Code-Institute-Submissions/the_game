@@ -88,12 +88,28 @@ I can walk. At the sametime a bite size approach would have been more rewarding.
 Looking at my assignment in it's current state it works not as smoothly as I like but it works on the principle of playing with
 random cards. What I do realise is that the better the function the more the user will enjoy the game.
 
+I have now got to a point where I feel stuck as testing various code hasn't had a positive outcome in 4 days and I only have a 
+week before my deadline. I have been given encouragement that I'm doing well by my mentor and student support but require
+knowledge and can't quite grasp why I feel so stuck. I have gone over course notes and even the modules but the answers not
+presenting themselves as I'd expect. I won't lie I feel like a fraud but capricorns are not quitters. What I do know is there is the 
+growing possiblity that I will complete this assignment once I'm more expreienced in Javascript and could have been a little
+over ambitious with my choice of project. I have found it quite a lonely experience as I am the most advanced person I know that 
+uses computers in my area and despite the country in lockdown I don't have a buddy who has the knowledge to guide me to continue confidently
+and successfully. As I write this I am waiting for a friend of a friend to call with additonal advice. I am really concerned
+but there is part of me that is extremely excited that I will be good at JavaScript in the no too distant future.
+
 
 
 
 ### Deployment.
 
 ### Credits.
+
+Credits go to Coding Journey for their video on card flip effects on YouTube the link can be found in the Acknowledgments
+section. 
+
+I also like to thank the tutors for their help and advice in particular Scott and Haley.
+
 
 ### Content.
 
@@ -113,3 +129,5 @@ I used stack overflow for reference on fliping the random images.
 WC3 Schools was always a place to go as a reference library.
 
 I like to express my gratitude to Brian Macharia for his support advice and understanding as my mentor with this project.
+Additioanl support was in place by student support who reasured me I have the skills in doing well despite my doubts at this
+stage of the course.
