@@ -171,6 +171,8 @@ Used SitePoint JavaScript books for reference
 
 ### Acknowledgments.
 
+Google fonts used are Roboto and Bangers.
+
 Card Flip Effect (HTML & CSS) by Coding Journey https://www.youtube.com/watch?v=Lc6wyl1KdOc
 As mentioned about I used this to educate my self and practice making various varations.
 
