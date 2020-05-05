@@ -20,14 +20,27 @@ to the game compairing traits and second guessing the opponants cards as expreie
 I used Balsamiq wireframe for my designs which can be found in the UX-designs folder within images. 
 I like to think I have taken on a simplistic approach with a title with a simple 3 button navigation.
 
+The colours I have selected the green and yellow compliment each other and suit the cartoon font bangers I have selected
+as primary font for this assignment my second choice of font is Roboto this will be used for paragraph text, scores and the footer
+copyright symbol.
+
+The Navigation links also feature the Bangers font almost representing chapter within a comic. A hamburger menu replaces these on
+a responsive design. On click however open across the page stacked on top of each other.
+
 ### Features. 
+
+I intend to have a Jumbatron with 3 pages of navigation Home/Restart About/Rules and Contact. It will also feature a footer as
+standard. At the early stages I have cosen not to inculde any footer social media links as that would require additional set up
+which is something I'd rather come up with once I have a functioning product I am happy with as in these early stages I have
+an idea what to do but not entirely certain how to execute it but that I imagine is normal for a first JavaScript assignment.
+
+It will feature my art work.
 
 #1, Will Do
 
 The cards will feature a animation to make them look like authentic cards.
 Have a challenge using the strength ability with random cards selected. Player one goes first it then give a score between player 
 one and players two. 
-
 
 #2, Stretch Goal
 
@@ -75,10 +88,18 @@ alternate games I may chose to develop in the future when JavaScript becomes sec
 Boostrap was used for my layout. Orignially I was using Font awsome but chose to remove my it when I found it wasn't
 nessacary within my design and did have a few implementation problems and found that it wasn't essential for my project at this
 stage. I would consider it possibly in the future should I get time to implement it and it complemented the site design.
+https://getbootstrap.com/
 
 I did look at JQuery and Jasmine to see if I required them for my assignments but feel I need more hands on experience to
-become more familar with them. 
+become more familar with them. https://jquery.com/
+
 I have focused mainly with JavaScript directly to get to grips with it more.
+
+EmailJS was used to set up the contact form. https://www.emailjs.com/
+
+Balsamiq was used for the wireframes found in the UX design folder https://balsamiq.com/
+
+Google fonts used as highlighted at the top off style.css are Banger and Roboto https://fonts.google.com/
 
 
 ### Testing.
@@ -149,7 +170,41 @@ stage I am going to purchase books in a bid to grasp this part of the course. I'
 to submit at this stage as I am successfully waisting time and not learning anything but dispair and a sense of isolation.
 
 I am now back on the course in a bid to manipulate the DOM (Document Object Model) in a bid to get this function working.
+Further testing proved still to be causing me problems so with the deadline approaching I took a different approach.
+I remebered the contact form needed the function so I used googles EmailJS. I set up the template with the Catboy identity 
+so I could find it for quick reference as overtime I'm sure I can build numerous amounts of websites and I haven't come
+across many that didn't have a contact form.
+
+I linked the account to my google account following the instructions required. On a sucessful test I took the code snippet
+displayed in the test and added it to the JavaScript sendEmail with other code provided in the documents for hosting.
+I also added other JavaScript within the contact HTML and instructed the form with onSumbit information. The problems I encountered 
+only came from adding code to the index page rather than the Contact page in error but it didn't take long to realise my mistake.
+
+Further tests and the function is working perfectly I made a commit at this stage happy I had made some progress after a long 
+period where I have just been researching how to progress further through this assignment.
+
 ### Deployment.
+
+Like the previous assignment I am using GitHub and GitPod to set up and Edit and save my repositories - I would like to point out during 
+one of my commits I made the error of forgetting to add a comment in the quotes where I had become distracted in trying to
+find a solution to get my cards to score. I imediately made another commit adding a quote but no changes had been made and the commit
+didn't count.
+
+The correct process it:
+
+git status
+
+git add .
+
+git commit -m "COMMENTS HERE"
+
+git push 
+
+if the repository doesn't exsist 
+
+start with git init
+
+GITHUB HOSTING NOTES HERE
 
 ### Credits.
 
@@ -164,10 +219,12 @@ I also like to thank the tutors for their help and advice in particular Scott an
 ### Media.
 
 All Images are by my hand and then converted with Graphic Tablet either with Adobe Photoshop or Adobe Illustrator.
+https://www.adobe.com/uk/creativecloud.html?gclid=Cj0KCQjwncT1BRDhARIsAOQF9Ll_Bca-NXe26KiWDJDZQHr8VZ7z-pGWIAlW9j6H97CA_9F86lLbKyAaAmCiEALw_wcB&sdid=88X75SKR&mv=search&ef_id=Cj0KCQjwncT1BRDhARIsAOQF9Ll_Bca-NXe26KiWDJDZQHr8VZ7z-pGWIAlW9j6H97CA_9F86lLbKyAaAmCiEALw_wcB:G:s&s_kwcid=AL!3085!3!273769967928!e!!g!!adobe%20cc
+NB: Not sure why they require a link this long
 
-The idea is losely based on Top trumps 
+The idea is losely based on Top trumps http://www.toptrumps.com/
 
-Used SitePoint JavaScript books for reference 
+Used SitePoint JavaScript books for reference there is a wealth of knowledge I can get here. https://www.sitepoint.com/
 
 ### Acknowledgments.
 
@@ -178,7 +235,9 @@ As mentioned about I used this to educate my self and practice making various va
 
 I used stack overflow for reference on fliping the random images.
 
-WC3 Schools was always a place to go as a reference library.
+WC3 Schools was always a place to go as a reference library.  https://www.w3schools.com
+
+Tutors and Student Services at the Code Institute 
 
 I like to express my gratitude to Brian Macharia for his support advice and understanding as my mentor with this project.
 Additioanl support was in place by student support who reasured me I have the skills in doing well despite my doubts at this
