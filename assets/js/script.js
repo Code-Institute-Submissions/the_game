@@ -396,7 +396,7 @@ function chooseCharacter(){
  
 }
 
-function playTurn(cardsID); {
+function playTurn(cardsID); { // run this with cardID test from index.html
   let cards = chooseRandomCharacter();
   let cards = document.getElementById(cardsID);
 }

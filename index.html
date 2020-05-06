@@ -59,7 +59,7 @@
                                 <h2><strong>PLAYER 1 VS PLAYER 2</strong></h2>
                                         <div class="row">
                                             <div class="flip-card-container1 cardy"><!--Do not add boot strap hear as turns card to paddle-->
-                                                <div class="flip-card1">
+                                                <div class="flip-card1" id="player-one" onClick="playTurn(this.id)"> <!-- Added this test 06/05/20-->
                                                     <div class="flip-card-front1"><img src="assets/images/cards/rear_card_template.png" alt="rear card image">
                                                     </div>
                                                         <div class="flip-card-back1"><img src="assets/images/cards/Peet_card.png" alt="card image">
@@ -68,7 +68,7 @@
                                                 </div><!--End of Card 1-->
                                                <span> This is the Score Area Try And Center It All</span>
                                                 <div class="flip-card-container2 cardy">
-                                                    <div class="flip-card2">
+                                                    <div class="flip-card2" id="player-two" onClick="playTurn(this.id)"> <!-- Added this test 06/05/20-->
                                                         <div class="flip-card-front2"><img src="assets/images/cards/rear_card_template.png" alt="rear card image">
                                                     </div>
                                                         <div class="flip-card-back2"><img src="assets/images/cards/Darbin_card.png" alt="card image" >
