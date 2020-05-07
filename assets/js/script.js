@@ -299,41 +299,9 @@ $(function() {
         e.preventDefault();
         var number = Math.floor(Math.random()*cards.length);
         //console.log(cards[number]);
-        $(this).children('div').children('div').children('img').attr('src', cards[number]);
+        $(this).children('div').children('div').children('img').attr('src', cards[number].image_link);
     });
 });
-
-cards[0] = "assets/images/cards/Catboy_card.png"; //Bearz
-cards[1] = "assets/images/cards/boobee_card.png"; //Boobee
-cards[2] = "assets/images/cards/Catboy_card.png"; //Catboy
-cards[3] = "assets/images/cards/Catcalstle_card.png"; //Cat Castle
-cards[4] = "assets/images/cards/Catdog_card.png"; // Catdog
-cards[6] = "assets/images/cards/Daadee_card.png"; // Daah
-cards[5] = "assets/images/cards/Darbin_card.png"; // Darbin
-cards[7] = "assets/images/cards/Frog_card.png"; //Frog
-cards[8] = "assets/images/cards/Geko_card.png"; // Geko
-cards[9] = "assets/images/cards/ghost_card.png"; // Ghost
-cards[10] = "assets/images/cards/Glammy_card.png"; //Glammy
-cards[11] = "assets/images/cards/grand_card.png"; //Grand
-cards[12] = "assets/images/cards/Karr_card.png"; // Karr
-cards[13] = "assets/images/cards/Kaykee_card.png"; // Kaykey
-cards[14] = "assets/images/cards/Knottingmouth_card.png"; // Knotting-Mouth
-cards[15] = "assets/images/cards/Marmee_card.png"; // Mar-me-Duc
-cards[16] = "assets/images/cards/Moo_card.png"; // Moo
-cards[17] = "assets/images/cards/Mook_card.png"; // Mook
-cards[18] = "assets/images/cards/Mummers_card.png.png"; //Mummers
-cards[19] = "assets/images/cards/oppih_card.png"; // Oppih
-cards[20] = "assets/images/cards/Peapeel_card.png"; //Pee-Peels
-cards[21] = "assets/images/cards/Peet_card.png"; // Peet
-cards[22] = "assets/images/cards/Raaaaa_card.png"; // Raaaaa
-cards[23] = "assets/images/cards/Rory_Dragon_card.png"; // Rory Dragon
-cards[24] = "assets/images/cards/Truck_card.png"; // T-Ruck
-cards[25] = "assets/images/cards/Twoo_card.png"; // Twoo
-cards[26] = "assets/images/cards/Upsteps_card.png"; // UpSteps
-cards[27] = "assets/images/cards/Weewoo_card.png"; // Weewoo
-cards[28] = "assets/images/cards/Whistle_card.png"; // Whistle
-cards[29] = "assets/images/cards/Winky_Face_card.png"; // Winky Face
-
 
 // var chooseRandomCharacter =();
 
