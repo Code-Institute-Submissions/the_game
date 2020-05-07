@@ -2,7 +2,7 @@
 
 let flipCardContainer1 = document.querySelector(".flip-card-container1");
       flipCardContainer1.addEventListener("click", function() {
-          console.log("flipCardContainer1 clicked")
+          console.log("flipCardContainer1 clicked");
         flipCardContainer1.classList.toggle("flip");
       });
 
@@ -10,7 +10,7 @@ let flipCardContainer1 = document.querySelector(".flip-card-container1");
 
 let flipCardContainer2 = document.querySelector(".flip-card-container2");
       flipCardContainer2.addEventListener("click", function() {
-          console.log("flipCardContainer2 clicked")
+          console.log("flipCardContainer2 clicked");
         flipCardContainer2.classList.toggle("flip");
       });
 
@@ -334,9 +334,9 @@ cards[27] = "assets/images/cards/Weewoo_card.png"; // Weewoo
 cards[28] = "assets/images/cards/Whistle_card.png"; // Whistle
 cards[29] = "assets/images/cards/Winky_Face_card.png"; // Winky Face
 
-
-// Player One Choses attribute().
 /*
+// Player One Choses attribute().
+
 function playGame() {
   // Wait for player 1 to click on their card
   // onclick
@@ -357,7 +357,7 @@ function playGame() {
   // When the game is done, use an if statement to say who's the winner. Not
   // sure if this has to be in this function or another. Will let you decide.
  
-}
+} */
  
 // Given two characters, compare them and return a score.
  
@@ -368,12 +368,10 @@ function playGame() {
   // array of two numbers: The scores for characterOne and characterTwo respectively.
 
 
-
-
 // Selecting a random character -- pick a random number between 0 and the 
 // cards.length - 1. Use Math.random(). Getting a random integer between two values in the document below*/
 
-
+/*
 // below section worked on test
 function getScore(characterOne, characterTwo) {
   if (characterOne.strength > characterTwo.strength) {
@@ -389,7 +387,7 @@ function getScore(characterOne, characterTwo) {
   }
  
 }
- /*
+
 // Choose a character from the list of characters in the characters array.
 
 function chooseCharacter(){
@@ -397,24 +395,24 @@ function chooseCharacter(){
 }
 
 function playTurn(cardsID); { // run this with cardID test from index.html
-  let cards = chooseRandomCharacter();
+  let player-one = chooseRandomCharacter();
   let cards = document.getElementById(cardsID);
 }
 
 if (cards.innerHTML !=''); {}
 
-if (cardsID === 'playerOne');
-else if (cardsID === 'playerTwo');
+if (cardsID === 'player-one');
+else if (cardsID === 'player-two');
 
 console.log(game);
 
 let player1 = document.createElement('span');
-player1.innertext = character.name
-card.appendChild(player1);
+player1.innertext = character.name;
+card.appendChild(playerOne);
 
 
 let strength = document.createElement('span');
-strength.innerText = Character.strength
+strength.innerText = Character.strength;
 card.appendChild(strength);
 
 let cardsImage = document.createElement('img');
