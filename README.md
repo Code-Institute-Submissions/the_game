@@ -181,6 +181,7 @@ Further tests and the functions are working perfectly I made a commit at this st
 period where I have just been researching how to progress further through this assignment.
 
 I have noticed the card oppih won't come up in tests despite the link being correct - This is very odd as makes no sense.
+However when I looked closely the numbering was wrong and wasn't link up correctly.
 
 Further tests to get the score working have proven unsuccessful and I am really disappointed as this part is taking more
 time than I anticipated. Part of me feels I have got silly errors in my code. Therefore, anything small will prevent something

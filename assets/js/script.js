@@ -321,8 +321,8 @@ cards[14] = "assets/images/cards/Knottingmouth_card.png"; // Knotting-Mouth
 cards[15] = "assets/images/cards/Marmee_card.png"; // Mar-me-Duc
 cards[16] = "assets/images/cards/Moo_card.png"; // Moo
 cards[17] = "assets/images/cards/Mook_card.png"; // Mook
-cards[18] = "assets/images/cards/Mummers_card.png"; //Oppih
-cards[29] = "assets/images/cards/oppih_card.png"; // Catdog
+cards[18] = "assets/images/cards/Mummers_card.png.png"; //Mummers
+cards[19] = "assets/images/cards/oppih_card.png"; // Oppih
 cards[20] = "assets/images/cards/Peapeel_card.png"; //Pee-Peels
 cards[21] = "assets/images/cards/Peet_card.png"; // Peet
 cards[22] = "assets/images/cards/Raaaaa_card.png"; // Raaaaa
@@ -334,30 +334,28 @@ cards[27] = "assets/images/cards/Weewoo_card.png"; // Weewoo
 cards[28] = "assets/images/cards/Whistle_card.png"; // Whistle
 cards[29] = "assets/images/cards/Winky_Face_card.png"; // Winky Face
 
-/*
-// Player One Choses attribute().
 
-function playGame() {
-  // Wait for player 1 to click on their card
-  // onclick
-  let playerOneCharacter = chooseCharacter();
+// var chooseRandomCharacter =();
+
+// Player One Choses attribute(). below makes a difference since playTurn added
+
+function playTurn(cardsID) {
+let playerOne = chooseRandomCharacter(); 
+let playerOneCharacter = chooseRandomCharacter(); // Wait for player 1 to click on their card onclick
  
-  // Wait for player 2 to click on their card
-  // onclick
-  let playerTwoCharacter = chooseCharacter();
+let playerTwoCharacter = chooseRandomCharacter();// Wait for player 2 to click on their card  onclick
+
+// if (cards.innerHTML != ;
  
   // Score should be some data structure that holds the scores for both players
   // There's probably a better way to do this, but for now, make it an array of two numbers.
-  let score = getScore(playerOneCharacter, playerTwoCharacter);
- 
-  // Update a global variable keeping track of each character's score, and the page
- 
-  // I know I said no global variables, but we'll fix that later.
+
+let score = getScore(playerOneCharacter, playerTwoCharacter);
  
   // When the game is done, use an if statement to say who's the winner. Not
   // sure if this has to be in this function or another. Will let you decide.
  
-} */
+}
  
 // Given two characters, compare them and return a score.
  
@@ -367,18 +365,17 @@ function playGame() {
 //  Returns:
   // array of two numbers: The scores for characterOne and characterTwo respectively.
 
-
 // Selecting a random character -- pick a random number between 0 and the 
 // cards.length - 1. Use Math.random(). Getting a random integer between two values in the document below*/
 
-/*
 // below section worked on test
+
 function getScore(characterOne, characterTwo) {
-  if (characterOne.strength > characterTwo.strength) {
+  if (characterOne.strength.cards > characterTwo.strength.cards) {
 	return [2, 0];
   }
  
-  else if (characterOne.strength < characterTwo.strength) {
+  else if (characterOne.strength.cards < characterTwo.strength.cards) {
 	return [0, 2];
   }
  
@@ -387,6 +384,8 @@ function getScore(characterOne, characterTwo) {
   }
  
 }
+
+/* BELOW CODE WHERE CONFLICTS ARE
 
 // Choose a character from the list of characters in the characters array.
 
