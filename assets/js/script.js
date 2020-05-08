@@ -48,7 +48,7 @@ let cards = [
   },
   {
     'name': 'Cat Castle',
-    'image_link': 'assets/images/cards/Catcastle_card.png',
+    'image_link': 'assets/images/cards/Catcalstle_card.png',
     'strength': 10,
     'weight': 10000,
     'power': 10,
@@ -129,7 +129,7 @@ let cards = [
   },
   {
     'name': 'Karr',
-    'image_link': 'assets/images/cards/Karr_cards.png',
+    'image_link': 'assets/images/cards/Karr_card.png',
     'strength': 8,
     'weight': 90,
     'power': 8,
@@ -138,7 +138,7 @@ let cards = [
   },
   {
     'name': 'Kay-kee',
-    'image_link': 'assets/images/cards/Kaykee_cards.png',
+    'image_link': 'assets/images/cards/Kaykee_card.png',
     'strength': 2,
     'weight': 0.1,
     'power': 2,
@@ -174,7 +174,7 @@ let cards = [
   },
   {
     'name': 'Mook',
-    'image_link': 'assets/images/cards/Mook_cards.png',
+    'image_link': 'assets/images/cards/Mook_card.png',
     'strength': 3,
     'weight': 0.1,
     'power': 3,
@@ -219,7 +219,7 @@ let cards = [
   },
   {
     'name': 'Raaaa',
-    'image_link': 'assets/images/cards/Raaaaa_cards.png',
+    'image_link': 'assets/images/cards/Raaaaa_card.png',
     'strength': 10,
     'weight': 450,
     'power': 9,
@@ -303,7 +303,35 @@ $(function() {
     });
 });
 
-// var chooseRandomCharacter =();
+// Game score
+
+let = getScore = 0;
+
+let playerOneScore = 0;
+let playerTwoScore = 0;
+
+let strength = document.createElement('span');
+strength.innerText = cards.strength;
+cards.appendChild(strength);
+
+function getScore(playerOneScore, playerTwoScore) {
+  if (playerOneScore.strength.cards > playerTwoScore.strength.cards) {
+	return [2, 0];
+  }
+ 
+  else if (playerOneScore.strength.cards < playerTwoScore.strength.cards) {
+	return [0, 2];
+  }
+ 
+  else {
+    return [1, 1];
+    
+
+  }
+ 
+}
+
+/*// var chooseRandomCharacter =();
 
 // Player One Choses attribute(). below makes a difference since playTurn added
 
@@ -338,20 +366,7 @@ let score = getScore(playerOneCharacter, playerTwoCharacter);
 
 // below section worked on test
 
-function getScore(characterOne, characterTwo) {
-  if (characterOne.strength.cards > characterTwo.strength.cards) {
-	return [2, 0];
-  }
- 
-  else if (characterOne.strength.cards < characterTwo.strength.cards) {
-	return [0, 2];
-  }
- 
-  else {
-	return [1, 1];
-  }
- 
-}
+
 
 /* BELOW CODE WHERE CONFLICTS ARE
 

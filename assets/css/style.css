@@ -71,6 +71,10 @@ h2 {
     color:#000000;
 }
 
+h4 {
+    text-align: center;
+}
+
 h6 {
     font-family: "Robto" , sans-serif;
     font-size: 20px;
@@ -173,7 +177,9 @@ h6 {
 }
 
 span {
+    font-family: "Roboto", sans-serif;
     padding: 10px;
+    color: #000000;
 }
 
 /*    ------------------------Footer   */
