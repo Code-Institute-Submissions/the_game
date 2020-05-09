@@ -303,9 +303,81 @@ $(function() {
     });
 });
 
-// Game score
+// Game score update 09/05/20
+/*
+let playerOneCard = document.querySelector("#ctr1");
+let p1s = document.querySelector("#score1");
+let score1 = 0;
 
-let = getScore = 0;
+let playerTwoCard = document.querySelector("#ctr2");
+let p1s = document.querySelector("#score1");
+let score2 = 0;
+
+let reset = document.querySelector("#reset");
+let winner = document.querySelector("#winner");
+
+cards.addEventlistener("click", function(){
+
+  let limit = document.querySelector("#limit").value;
+
+  score1++;
+
+  p1s.textContent = score1;
+});
+
+if( score1 == limit || (score1>score2 && score1>limit)){
+p1s.classList.add("green");
+  cards.setAttribute("disabled", "true");
+
+printWinner();
+}
+
+cards.addEventlistener("click", function(){
+
+  var limit = document.querySelector("limit").value;
+  
+  score1++;
+
+  p2s.textContent = score1;
+
+  if( score2 == limit || (score2>score1 && score2>limit)){
+p2s.classList.add("green");
+  cards.setAttribute("disabled", "true");
+
+ printWinner();
+}
+
+});
+
+reset.addEventListener("click", function(){
+  cards.removeAttribute("disabled");
+  p1s.classList.remove("green");
+  p2s.classList.remove("green");
+
+  score1,score2 = 0;
+
+  p1s.textContent = score1;
+  p2s.textContent = Score2;
+
+  document.querySelector("#limit"); value = 15;
+
+  winner.textContent = "";
+});
+
+function printWinner()
+
+if(score1>Score2); {
+  winner.textContent = "Player1";
+}
+else;
+{
+  winner.textContent = "Player2";
+});  */
+
+
+/*
+let Score = 0;
+
 
 let playerOneScore = 0;
 let playerTwoScore = 0;
@@ -330,8 +402,9 @@ function getScore(playerOneScore, playerTwoScore) {
   }
  
 }
+console.log(getScore);
 
-/*// var chooseRandomCharacter =();
+// var chooseRandomCharacter =();
 
 // Player One Choses attribute(). below makes a difference since playTurn added
 
@@ -352,7 +425,7 @@ let score = getScore(playerOneCharacter, playerTwoCharacter);
   // sure if this has to be in this function or another. Will let you decide.
  
 }
- 
+ */
 // Given two characters, compare them and return a score.
  
 // Args:
@@ -390,17 +463,17 @@ console.log(game);
 
 let player1 = document.createElement('span');
 player1.innertext = character.name;
-card.appendChild(playerOne);
+cards.appendChild(playerOne);
 
 
 let strength = document.createElement('span');
 strength.innerText = Character.strength;
-card.appendChild(strength);
+cards.appendChild(strength);
 
 let cardsImage = document.createElement('img');
 let cardsImage = document.createElement('img');
 cardsImage.SetAttribute('scr', imageDirectory + character.image);
-card.appendChild(cardsImage);
+cards.appendChild(cardsImage);
 
 if (game.playerTwoTurnsSoFar === game.currentGameRound);
 

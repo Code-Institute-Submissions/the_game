@@ -58,20 +58,24 @@
                             <div class="col-12 col-md-12 col-sm-12 col-xs-12 ">
                                 <h2><strong>PLAYER 1 VS PLAYER 2</strong></h2>
                                         <div class="row">
-                                            <div class="flip-card-container1 cardy"><!--Do not add boot strap hear as turns card to paddle-->
-                                                <div class="flip-card1" id="playerOne" onClick="playTurn(this.id)"> <!-- Added this test 06/05/20-->
+                                            <div class="flip-card-container1 cardy PlayerOneCard"><!--Do not add boot strap hear as turns card to paddle-->
+                                                <div class="flip-card1" id="p1s" > 
                                                     <div class="flip-card-front1"><img src="assets/images/cards/rear_card_template.png" alt="rear card image">
                                                     </div>
                                                         <div class="flip-card-back1"><img src="assets/images/cards/Peet_card.png" alt="card image">
                                                         </div>
                                                     </div>
                                                 </div><!--End of Card 1-->
-                                               <span id="playerOneScore PlayerTwoScore"> This is the Score Area Try And Center It All</span>
-                                                <div class="flip-card-container2 cardy">
-                                                    <div class="flip-card2" id="playerTwo" onClick="playTurn(this.id)"> <!-- Added this test 06/05/20-->
+                                               <div class="content"><h1><strong> Score Arena </strong></h1>
+                                               <big>Score: </big><span id="score1">0 </span> VS <span id="score2"> 0</span>
+         
+            <button class="btn btn-danger">Reset</button>
+                                               </div>
+                                                <div class="flip-card-container2 cardy playerTwoCard">
+                                                    <div class="flip-card2" id="p2s" > 
                                                         <div class="flip-card-front2"><img src="assets/images/cards/rear_card_template.png" alt="rear card image">
                                                     </div>
-                                                        <div class="flip-card-back2"><img src="assets/images/cards/Darbin_card.png" alt="card image" >
+                                                        <div class="flip-card-back2" ><img src="assets/images/cards/Darbin_card.png" alt="card image" >
                                                     </div>
                                                 </div>
                                             </div>
