@@ -187,6 +187,13 @@ Further tests to get the score working have proven unsuccessful and I am really 
 time than I anticipated. Part of me feels I have got silly errors in my code. Therefore, anything small will prevent something
 so big being executed.
 
+I actually managed to centre the contents finally using the Bootstrap command "d-flex justify-content-center" within the row class
+this has made me extemely happy as today the website is looking like what it set out to look like however despite doing further tests 
+on scoring I still haven't managed to get the website score system to function. I will continue to look for this. I think the
+time and effort I have put in should reward me this success so I will continue to push through.
+
+I decided to space the layout even more with "d-flex justify-content-around" Boostrap command.
+
 ### Deployment.
 
 Like the previous assignment I am using GitHub and GitPod to set up and Edit and save my repositories - I would like to point out during 

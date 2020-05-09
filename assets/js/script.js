@@ -304,13 +304,13 @@ $(function() {
 });
 
 // Game score update 09/05/20
-/*
-let playerOneCard = document.querySelector("#ctr1");
+
+let playerOneCard = document.querySelector("#playerOneCard");
 let p1s = document.querySelector("#score1");
 let score1 = 0;
 
-let playerTwoCard = document.querySelector("#ctr2");
-let p1s = document.querySelector("#score1");
+let playerTwoCard = document.querySelector("#playerTwoCard");
+let p2s = document.querySelector("#score2");
 let score2 = 0;
 
 let reset = document.querySelector("#reset");
@@ -332,9 +332,24 @@ p1s.classList.add("green");
 printWinner();
 }
 
+reset.addEventListener("click", function(){ // Taken from code below where addEventlistener not working
+  cards.removeAttribute("disabled");
+  p1s.classList.remove("green");
+  p2s.classList.remove("green");
+
+  score1,score2 = 0;
+
+  p1s.textContent = score1;
+  p2s.textContent = Score2;
+
+  document.querySelector("#limit"); value = 15;
+
+  winner.textContent = "";
+});
+/*
 cards.addEventlistener("click", function(){
 
-  var limit = document.querySelector("limit").value;
+  var limit = document.querySelector("#limit").value;
   
   score1++;
 
@@ -372,7 +387,7 @@ if(score1>Score2); {
 else;
 {
   winner.textContent = "Player2";
-});  */
+});  
 
 
 /*
