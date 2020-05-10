@@ -193,6 +193,12 @@ span {
   
 }
 
+/*    ------------------------Form   */
+
+.form-control {
+    margin-bottom: 0.5rem;
+}
+
 /*    ------------------------Footer   */
 
 footer {
@@ -202,9 +208,15 @@ footer {
     background-color: #569d44;
     padding: 12px;
     color:#fff;
-    min-height: 100px;
-    min-width: 100%;
-    bottom: 0; 
+   position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.row {
+    margin-bottom: 50px;
 }
 
 .copyright {

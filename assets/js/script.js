@@ -294,16 +294,46 @@ let cards = [
 
 // cards.length - 0 to 29. Use Math.random().
 
+let playerOneScore = 0
+let playerTwoScore = 0
+let numTurnsPlayed = 0
+const maxTurns = 4
+
 $(function() {
     $('.cardy').click(function(e) {
         e.preventDefault();
         var number = Math.floor(Math.random()*cards.length);
         //console.log(cards[number]);
         $(this).children('div').children('div').children('img').attr('src', cards[number].image_link);
+        if(e.currentTarget.id === 'player-one-card'){
+            playerOneScore = playerOneScore + cards[number].strength 
+            numTurnsPlayed = numTurnsPlayed + 1
+            console.log(numTurnsPlayed); 
+        }
+        else if(e.currentTarget.id === 'player-two-card'){
+            playerTwoScore = playerTwoScore + cards[number].strength 
+            numTurnsPlayed = numTurnsPlayed + 1
+            console.log(numTurnsPlayed);
+            if(maxTurns === numTurnsPlayed) {
+
+                // Call winner using an alert
+                resetGame() 
+
+            }
+            
+
+        } 
     });
 });
 
-// Game score update 09/05/20
+function resetGame(){
+     playerOneScore = 0
+    playerTwoScore = 0
+    numTurnsPlayed = 0
+console.log(numTurnsPlayed);
+}
+
+// Game score update 09/05/20 remove below information 
 
 let playerOneCard = document.querySelector("#playerOneCard");
 let p1s = document.querySelector("#score1");
@@ -315,7 +345,7 @@ let score2 = 0;
 
 let reset = document.querySelector("#reset");
 let winner = document.querySelector("#winner");
-
+/*
 cards.addEventlistener("click", function(){
 
   let limit = document.querySelector("#limit").value;
@@ -346,7 +376,7 @@ reset.addEventListener("click", function(){ // Taken from code below where addEv
 
   winner.textContent = "";
 });
-/*
+
 cards.addEventlistener("click", function(){
 
   var limit = document.querySelector("#limit").value;
@@ -389,8 +419,8 @@ else;
   winner.textContent = "Player2";
 });  
 
-
 /*
+
 let Score = 0;
 
 
