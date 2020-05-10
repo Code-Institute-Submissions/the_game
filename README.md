@@ -3,17 +3,20 @@
 My 2nd Landmark assignment with the code institute showcasing additional skills in JavaScript.
 
 I chose to design a game similar to the concept of the Game Top Trumps as it remains still popular since 1978.
-As a creative person I have also ways drawn doodles on paper during my thinking process and over time I have 
-developed a very unique and comical style.
+
+As a creative person I have also always drawn doodles on paper during my thinking process and over since my early childhood I have 
+developed a very unique and comical style over time therefore rather than use stock images I will rely on my own images like previous assignement.
 
 I started thinking of basing it on a Fantasy style element as a big fan of that genre.
 
-Studying my doodles, I noticed they all characters based around my great nephews’ key words from a nearly 3-year-old.
-Who identifies himself as Cat boy it with this I therefore have designed a comic book theme which is still very popular in 2020.
-today as it was 12 years ago with the release of films like Iron Man.
+Studying my doodles, I noticed they all characters based around my great nephews’ key words. He is a nearly 3-year-old.
+Who identifies himself as Catboy (I'm aware there is a Televison show he watches called Catboy but what he acts out is something co,mpletely different).
+It is with this I therefore have designed a comic book theme which is still very popular in 2020 since 2000's X-men and going forward with the current success
+of the Disney and Marvel franchise.
 
-I'd like to think the age group is 2 to 99 but assistance would be required and there is a level of educational value
-to the game comparing traits and second guessing the opponent’s cards as experienced players will be familiar with deduction.
+I'd like to think the age group this game would appeal to is ages 2 to 99. Adult supervision always would be required for the younger age group.
+I belive there is a level of educational value to the game comparing traits and second guessing the opponent’s cards as experienced 
+players will be familiar with deduction and strategy. This is providing I can allow all 5 traits to be successfully executed.
 
 ### UX. 
 
@@ -53,8 +56,6 @@ At this stage I won't make it for additional players 3, 4, 5 and 6. I also won't
 possible when I come back to this project post assessment as there is so much depth that could be added. I could even polish
 the style of cards even opens up its user base to adults but there would be fun to be gained out of this for adults.
 
-
-
 This project will feature an even deck of cards (26 to 32) divided by 2 players.
 
 Player 1 click on their card and choses any attribute they think will beat their opponent. On selecting their choice player 2
@@ -71,7 +72,8 @@ continue in the same way.
 
 Scores will be displayed between two cards stating clearly who is winning or losing.
 
-All cards are discarded after each round limiting games to number of turns 12 to 16 based on the number of cards.
+All cards are discarded after each round limiting games to number of turns 12 to 16 based on the number of cards. For example
+12 cards each is 24 cards in total and 16 cards is 32 cards in total.
 
 When the outcome result is made, I click (the player) on the Home/Reset button will start the game again. A more complex way
 of recording scores results maybe considered if progress is made and time constraints allow it.
@@ -154,11 +156,12 @@ uses computers in my area and despite the country in lockdown I don't have a bud
 and successfully. As I write this, I am waiting for a friend of a friend to call with additional advice. I am really concerned
 but there is part of me that is extremely excited that I will be good at JavaScript in the not too distant future.
 
+
 Another 4 hours testing snippets of code in the console with google inspect tool and no results. Checking code with checkers
 it's a May Bank Holiday Monday but not in UK this year due to change then VE Day celebrations due to happen on Friday. However 
-I'm stuck in the mud I have gone over all old course material and unfortunately it doesn't give me the answers to what I 
-require. I have had feedback from a friend who is talented but secretive in JavaScript and won’t help me. I'm now wondering what
-to do now. In all honesty I am at a position where I think I should just submit the assignment and hope for the best.
+I'm stuck in my tracks, I have gone over all old course material and unfortunately it doesn't give me the answers to what I 
+require. I have had feedback from a friend who is talented but secretive in JavaScript and won’t help me due to secrecy. I'm now wondering what
+to do now. In all honesty I am at a position where I think I should just submit the assignment and hope for the best but that is against my better judgement.
 In my head I know what I'm doing - in practise nothing coming from my hard work.
 
 I understand the learning process comes from research but a little confused as I have researched a lot of wrong information and 
@@ -194,6 +197,16 @@ time and effort I have put in should reward me this success so I will continue t
 
 I decided to space the layout even more with "d-flex justify-content-around" Boostrap command.
 
+It has become apparent that with less than 24 hours before I have to submit my assignment, I am still having difficulties
+getting my score system to work. I have to state I will use those hours to achieve what I set out to do and
+accept some defeat however, I will also have pride in what I have achieved and remember this is still just the beginning.
+There is so much I still need to learn and what I have figured out is when I'm wrong it can be something as minor as
+a colon in the wrong place. I have gone through lots of emotion with this assignment a lot of despair but at
+this stage I feel a sense of pride with what I have achieved and really do look forward in completing this project as
+I ambitiously envisioned in the stages of UX.
+
+
+
 ### Deployment.
 
 Like the previous assignment I am using GitHub and GitPod to set up and Edit and save my repositories - I would like to point out during 
@@ -215,7 +228,12 @@ if the repository doesn't exist
 
 start with git init
 
-GITHUB HOSTING NOTES HERE
+When deploying my project within GitHub I click on repositories then click the repository I require in this
+case the game master. I then click on the settings tab and scroll doen the page to GitHub pages, clicking on the 
+none button allows me to change it to Master Branch which I select.
+
+After this is live i then go to the Code Institute website module and click on a link for the student Pre-subbmission
+checklist.
 
 ### Credits.
 
@@ -242,6 +260,9 @@ Google fonts used are Roboto and Bangers.
 
 Card Flip Effect (HTML & CSS) by Coding Journey https://www.youtube.com/watch?v=Lc6wyl1KdOc
 As mentioned about I used this to educate myself and practice making various variations.
+
+I used this video to use a scoring system which was unsucessful when checking the code
+with a checker it seemed to be riddled with missing information. Its by Edureka https://www.youtube.com/watch?v=9XRufzemZNc
 
 I used stack overflow for reference on flipping the random images.
 
