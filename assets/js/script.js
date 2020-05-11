@@ -2,7 +2,6 @@
 
 let flipCardContainer1 = document.querySelector(".flip-card-container1");
       flipCardContainer1.addEventListener("click", function() {
-          console.log("flipCardContainer1 clicked");
         flipCardContainer1.classList.toggle("flip");
       });
 
@@ -10,7 +9,6 @@ let flipCardContainer1 = document.querySelector(".flip-card-container1");
 
 let flipCardContainer2 = document.querySelector(".flip-card-container2");
       flipCardContainer2.addEventListener("click", function() {
-          console.log("flipCardContainer2 clicked");
         flipCardContainer2.classList.toggle("flip");
       });
 
@@ -297,7 +295,7 @@ let cards = [
 let playerOneScore = 0
 let playerTwoScore = 0
 let numTurnsPlayed = 0
-let reset = document.querySelector('#reset');
+
 const maxTurns = 4 //increase this once game running
 
 $(function() {
@@ -308,15 +306,23 @@ $(function() {
         if(e.currentTarget.id === 'player-one-card'){
             playerOneScore = playerOneScore + cards[number].strength 
             numTurnsPlayed = numTurnsPlayed + 1
-            document.getElementById("score1").innerHTML = playerOneScore;
+            document.getElementById("score1").innerHTML = playerOneScore;  
+            
         }
         else if(e.currentTarget.id === 'player-two-card'){
             playerTwoScore = playerTwoScore + cards[number].strength 
             numTurnsPlayed = numTurnsPlayed + 1
-        document.getElementById("score2").innerHTML = playerTwoScore; // check this 
+            document.getElementById("score2").innerHTML = playerTwoScore; // check this 
             if(maxTurns === numTurnsPlayed) {
 
-                // Call winner using an alert
+        if(numTurnsPlayed == maxTurns){
+        if (playerOneScore > playerTwoScore){
+        setTimeout(function(){alert("player 1 wins");}, 1000); // select winner P1
+    }else{
+       setTimeout(function(){ alert("player 2 wins");}, 1000); // select winner P2
+    }
+}
+
                 resetGame() 
 
             }
@@ -326,202 +332,19 @@ $(function() {
     });
 });
 
+
 function resetGame(){
-     playerOneScore = 0
+    playerOneScore = 0
     playerTwoScore = 0
     numTurnsPlayed = 0
 }
-
 /*
-// Game score update 09/05/20 remove below information Remove the following code before submitting.
-
-let playerOneCard = document.querySelector("#playerOneCard");
-let p1s = document.querySelector("#score1");
-let score1 = 0;
-
-let playerTwoCard = document.querySelector("#playerTwoCard");
-let p2s = document.querySelector("#score2");
-let score2 = 0;
+let reset = document.querySelector("#reset");
+button.addEventListener(click, function() {
 
 
-let winner = document.querySelector("#winner");
-
-cards.addEventlistener("click", function(){
-
-  let limit = document.querySelector("#limit").value;
-
-  score1++;
-
-  p1s.textContent = score1;
+    playerOneScore.textContent = 0 
+    playerTwoScore.textContent = 0
+    numTurnsPlayed = 0 
 });
-
-if( score1 == limit || (score1>score2 && score1>limit)){
-p1s.classList.add("green");
-  cards.setAttribute("disabled", "true");
-
-printWinner();
-}
-
-reset.addEventListener("click", function(){ // Taken from code below where addEventlistener not working
-  cards.removeAttribute("disabled");
-  p1s.classList.remove("green");
-  p2s.classList.remove("green");
-
-  score1,score2 = 0;
-
-  p1s.textContent = score1;
-  p2s.textContent = Score2;
-
-  document.querySelector("#limit"); value = 15;
-
-  winner.textContent = "";
-});
-
-cards.addEventlistener("click", function(){
-
-  var limit = document.querySelector("#limit").value;
-  
-  score1++;
-
-  p2s.textContent = score1;
-
-  if( score2 == limit || (score2>score1 && score2>limit)){
-p2s.classList.add("green");
-  cards.setAttribute("disabled", "true");
-
- printWinner();
-}
-
-});
-
-reset.addEventListener("click", function(){
-  cards.removeAttribute("disabled");
-  p1s.classList.remove("green");
-  p2s.classList.remove("green");
-
-  score1,score2 = 0;
-
-  p1s.textContent = score1;
-  p2s.textContent = Score2;
-
-  document.querySelector("#limit"); value = 15;
-
-  winner.textContent = "";
-});
-
-function printWinner()
-
-if(score1>Score2); {
-  winner.textContent = "Player1";
-}
-else;
-{
-  winner.textContent = "Player2";
-});  
-
-/*
-
-let Score = 0;
-
-
-let playerOneScore = 0;
-let playerTwoScore = 0;
-
-let strength = document.createElement('span');
-strength.innerText = cards.strength;
-cards.appendChild(strength);
-
-function getScore(playerOneScore, playerTwoScore) {
-  if (playerOneScore.strength.cards > playerTwoScore.strength.cards) {
-	return [2, 0];
-  }
- 
-  else if (playerOneScore.strength.cards < playerTwoScore.strength.cards) {
-	return [0, 2];
-  }
- 
-  else {
-    return [1, 1];
-    
-
-  }
- 
-}
-console.log(getScore);
-
-// var chooseRandomCharacter =();
-
-// Player One Choses attribute(). below makes a difference since playTurn added
-
-function playTurn(cardsID) {
-let playerOne = chooseRandomCharacter(); 
-let playerOneCharacter = chooseRandomCharacter(); // Wait for player 1 to click on their card onclick
- 
-let playerTwoCharacter = chooseRandomCharacter();// Wait for player 2 to click on their card  onclick
-
-// if (cards.innerHTML != ;
- 
-  // Score should be some data structure that holds the scores for both players
-  // There's probably a better way to do this, but for now, make it an array of two numbers.
-
-let score = getScore(playerOneCharacter, playerTwoCharacter);
- 
-  // When the game is done, use an if statement to say who's the winner. Not
-  // sure if this has to be in this function or another. Will let you decide.
- 
-}
- */
-// Given two characters, compare them and return a score.
- 
-// Args:
-  // characterOne, characterTwo: character objects. The characters to compare
- 
-//  Returns:
-  // array of two numbers: The scores for characterOne and characterTwo respectively.
-
-// Selecting a random character -- pick a random number between 0 and the 
-// cards.length - 1. Use Math.random(). Getting a random integer between two values in the document below*/
-
-// below section worked on test
-
-
-
-/* BELOW CODE WHERE CONFLICTS ARE
-
-// Choose a character from the list of characters in the characters array.
-
-function chooseCharacter(){
- 
-}
-
-function playTurn(cardsID); { // run this with cardID test from index.html
-  let player-one = chooseRandomCharacter();
-  let cards = document.getElementById(cardsID);
-}
-
-if (cards.innerHTML !=''); {}
-
-if (cardsID === 'player-one');
-else if (cardsID === 'player-two');
-
-console.log(game);
-
-let player1 = document.createElement('span');
-player1.innertext = character.name;
-cards.appendChild(playerOne);
-
-
-let strength = document.createElement('span');
-strength.innerText = Character.strength;
-cards.appendChild(strength);
-
-let cardsImage = document.createElement('img');
-let cardsImage = document.createElement('img');
-cardsImage.SetAttribute('scr', imageDirectory + character.image);
-cards.appendChild(cardsImage);
-
-if (game.playerTwoTurnsSoFar === game.currentGameRound);
-
-}
-
-} */
+*/

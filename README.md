@@ -225,6 +225,26 @@ Eureka I finally think I'm grasping it getting it as scores are working I now ne
 reset buuton working. getElementById was required as expected but clearly had got myself confused with previous HTML
 ID's from original tests.
 
+I have to confess I have used more than one H1 which I was advised against with my studies this will be altered when
+I complete my website portfolio after the assignment has been graded.
+
+I've just seen a project on LinkedIn from another student at this stage and it is so good and full of detail I 
+realise how I need to raise the bar in future. I wished I had the full game completed not just one part but like I 
+said I will complete it one day.
+
+Now with only a few hours to go I am working on an if statement to get the winner announced. This is also now working
+I did find it was adding the details of the winner prior to turning the card after a click I then remembered to use
+the delay setTimeOut delay function. I'm starting to feel like the pressure has eased off and I know its me applying
+this pressure but I want to be an achiever that is all.
+
+I am aware that player one can cheat and so can player two by clicking on their card numerous times this will have to be
+a correction I make when I come back to the assignment as the deadline getting closer.
+
+Another issue I am aware of is the Draw will state player two the Winner.
+
+Now to get the reset button to work then I will be ready to submit my project in its current state which I have
+to admit I'm proud I have got this far and apologies about my journey of dispair on the way.
+
 
 
 ### Deployment.
@@ -260,9 +280,30 @@ checklist.
 Credits go to Coding Journey for their video on card flip effects on YouTube the link can be found in the Acknowledgments
 section. 
 
-I also like to thank the tutors for their help and advice in particular Scott and Haley.
+I also like to thank the tutors for their help and advice in particular Scott, Stephen, Tim and Haley.
 
 ### Content.
+
+A large part of the content was my card flipping 90% taken from the website YouTube tutorial which I link to in the credits and Acknowledgments 
+I added enough of my own code and images that I wasn't blatantly copying this wonderful educational video. I even left a comment on his YouTube video
+with a like stating how good it was. Give credit where credit due.
+
+All character write up and back story come from the vocabulary of my two nearly 3 year old Great Nephew Master Lennox Fox Markham 
+Bearz his favorite crisps, Boobee (use your imagination), Catboy his alter ego when he wants to wrestle, Cat Castle the dens he makes, Catdog
+as he trys to say them both at the same time if seen together. Daadee aka Daah his amazing Dad, Darbin is me I could have slightly bias stats.
+Frog his bath toy, Gecko another toy. Ghost a statue in the garden, Glammy his glamourous (not in the picture) his Grandma. Grand his great Grandfather
+nothing like the picture I just had a spare doodle. Karr should be spelt Car as he obsessed with cars but I needed characters. KayKee a pet name for cake.
+Knotting mouth aka 'not in mouth' something he says If you try and steal his cake. Mar-me-Duc his very loving Mummy the duc she inherited from her uncles walking like
+a duck when she had a nappy on at a similar age.
+
+Mook is cup of milk, Mummers what he calls his Great Grandma who is missing him terribly during lockdown. Oppih - Hippo backwards his aunties nickname.
+Pea-peels which should be Peoples I created a villain a round the name just based on you cannot trust everybody. Peet my brother the Viking called Pete.
+Raaa every dinosaur or crocodile call Raaaa, Rory Dragon his great Grandma when angry. T-ruck like Car really a Truck. Twoo and Owl, Weewoo the family Cat
+should be Willow. Upsteps a villian as without a baby gate he keeps clibming them. Whistle the noise had to chose older doodle of friend and finally 
+Winky face Lennox being cheeky winks is so funny.
+
+I have noticed similarities with one of my cards to a Disney character the Gecko but I didn't copy him it was straight from my head and a complete
+conincidence. 
 
 ### Media.
 
