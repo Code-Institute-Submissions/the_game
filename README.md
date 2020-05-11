@@ -245,6 +245,17 @@ Another issue I am aware of is the Draw will state player two the Winner.
 Now to get the reset button to work then I will be ready to submit my project in its current state which I have
 to admit I'm proud I have got this far and apologies about my journey of dispair on the way.
 
+I will now accept some defeat that I couldn't solve my reset button issue despite looking at numerous sources of code
+on numerous website. It is at this stage that I now submit this assignment. What I will say that it probably not required
+as It does have a restart button in the navigation. 
+
+I will point for the project the game has two turns each I will increase this when I return to complete assignment post
+assesment.
+
+I have to say I have enjoyed and hated the challenge and everytime I use it I get that little bit better even if it
+is two steps forward one step back. I will continue to read up and revise on JavaScript on a daily basis but might
+just take a day off first.
+
 
 
 ### Deployment.

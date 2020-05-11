@@ -322,8 +322,14 @@ $(function() {
        setTimeout(function(){ alert("player 2 wins");}, 1000); // select winner P2
     }
 }
-
-                resetGame() 
+/*
+let reset = document.querySelector("#reset"); // reset button needs to be fixed post exam
+reset.addEventListener("click", resetGame())
+function resetGame() {
+    playerOneScore = 0
+    playerTwoScore = 0
+    numTurnsPlayed = 0
+}*/
 
             }
             
@@ -332,19 +338,4 @@ $(function() {
     });
 });
 
-
-function resetGame(){
-    playerOneScore = 0
-    playerTwoScore = 0
-    numTurnsPlayed = 0
-}
-/*
-let reset = document.querySelector("#reset");
-button.addEventListener(click, function() {
-
-
-    playerOneScore.textContent = 0 
-    playerTwoScore.textContent = 0
-    numTurnsPlayed = 0 
-});
-*/
+    
