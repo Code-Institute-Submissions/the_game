@@ -109,6 +109,11 @@ Within a week I am still addressing these issues. I completely understand the pr
 my H2 heading responds as I would expect however the Bootstap Nav bar I am using isn't cooperating, so I continue
 to read their resources page hoping to rectify this before the hard work starts which I believe to be the JavaScript.
 
+This could be seen as an excuse but I chose it to be an argument. The Mobile phone responsive view doesn't work as
+I would like it to work but would also justify that probably not that important for this project as with the current
+global situation of Covid-19 having a game on a phone when a handset is to be shared would be quite irresponsible of
+me. I would like to point out it does display as I'd expect with Desktop and Tablet.
+
 To further this point, I wanted to start adding the JavaScript as soon as I see some graphical animation in practise 
 starting to work I think I will then get my light bulb moment however; I have been experiencing problem in the console 
 which I have notice since google made an update a few months back on 2014 iMac. This has also affected my course work
@@ -204,6 +209,21 @@ There is so much I still need to learn and what I have figured out is when I'm w
 a colon in the wrong place. I have gone through lots of emotion with this assignment a lot of despair but at
 this stage I feel a sense of pride with what I have achieved and really do look forward in completing this project as
 I ambitiously envisioned in the stages of UX.
+
+I had a productive 12 hours my test for rounds and score are working but I'm again finding it difficult to manipulate
+the DOM to display the score then reset the game. I have less than 12 hours to submit the assignment so asking for 
+tutor support to get me through this last little bit, the last push for potential greatness as it will me the world
+to me to do well on this as I image all students do. 
+
+I felt like I was flowing yesterday finally grasping what I was doing. I really do understand I have to think logically
+plotting all steps along the way as too often I think I was having a begining a middle and an end not realising that
+little steps need to be made. This made more sense by physically making the cards and talking to myself describing what
+i am doing. For example cards are face down, card on is turned then card two. Then score is required. That is what needs to
+be done.
+
+Eureka I finally think I'm grasping it getting it as scores are working I now need to announce a winner and confirm 
+reset buuton working. getElementById was required as expected but clearly had got myself confused with previous HTML
+ID's from original tests.
 
 
 

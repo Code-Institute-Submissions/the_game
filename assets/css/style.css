@@ -71,6 +71,12 @@ h2 {
     color:#000000;
 }
 
+h3 {
+    font-family: 'Bangers', sans-serif;
+    color:#f9d302;
+    text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
+}
+
 h4 {
     text-align: center;
 }
@@ -208,7 +214,7 @@ footer {
     background-color: #569d44;
     padding: 12px;
     color:#fff;
-   position: absolute;
+   position: relative;
     bottom: 0;
     height: 100px;
     width: 100%;
@@ -248,5 +254,3 @@ button[type="submit"] {
     background-color: #569d44;
     text-shadow: 1px 1px 1px red, 0 0 1px darkblue;
 }
-
-
